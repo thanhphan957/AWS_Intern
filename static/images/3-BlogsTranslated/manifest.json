@@ -1,0 +1,214 @@
+[
+  {
+    "id": "3.1-Blog1",
+    "url": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/",
+    "images": [
+      {
+        "path": "/images/3-BlogsTranslated/3.1-Blog1/hero.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/01/image-14.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.1-Blog1/figure-1.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/27/eks-image-01-1024x382.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.1-Blog1/figure-2.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/27/eks-image-02-1024x507.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.1-Blog1/figure-3.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/27/eks-image-03-1024x718.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.1-Blog1/figure-4.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/27/eks-image-04-1024x557.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.1-Blog1/figure-5.jpg",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/03/05/micawal.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3.2-Blog2",
+    "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
+    "images": [
+      {
+        "path": "/images/3-BlogsTranslated/3.2-Blog2/hero.jpg",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/29/aws-cloudformation-express-2.jpg"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.2-Blog2/figure-1.jpg",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/25/2026-aws-cloudformation-express-mode-console.jpg"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.2-Blog2/figure-2.jpg",
+        "src": "https://d2908q01vomqb2.cloudfront.net/7b52009b64fd0a2a49e6d8a939753077792b0554/2020/06/05/channyun_400x400.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3.3-Blog3",
+    "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
+    "images": [
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/hero.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/15/Cert-Mgr-feat-img.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-1.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/09/2026-06-09_15-35-37.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-2.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/09/2026-06-09_15-35-37-1024x877.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-3.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/09/2026-06-09_15-37-35.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-4.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/09/2026-06-09_15-37-35-1024x650.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-5.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/08/2026-06-05_17-27-21.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-6.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/08/2026-06-05_17-27-21-1024x832.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-7.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-09_15-46-50-v2.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-8.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-09_15-46-50-v2-1024x801.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-9.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/08/2026-06-05_17-30-08.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-10.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/08/2026-06-05_17-30-08-1024x255.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-11.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/09/2026-06-09_15-50-53.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-12.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/09/2026-06-09_15-50-53-1024x810.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-13.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/08/2026-06-05_17-46-42.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-14.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/08/2026-06-05_17-46-42-1024x569.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-15.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/09/2026-06-09_15-53-37.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-16.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/09/2026-06-09_15-53-37-1024x251.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-17.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/08/2026-06-05_17-48-17.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-18.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/08/2026-06-05_17-48-17-1024x227.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-19.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-10_15-16-12-v3.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-20.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-10_15-16-12-v3-1024x378.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-21.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/2026-06-10_15-21-23-v2.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-22.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/10/2026-06-10_15-18-04.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-23.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/10/2026-06-10_15-18-04-1024x280.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.3-Blog3/figure-24.jpg",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/01/13/AWS-59-cropped.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3.4-Blog4",
+    "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+    "images": [
+      {
+        "path": "/images/3-BlogsTranslated/3.4-Blog4/hero.jpeg",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/22/AdobeStock_44802230-1260x630.jpeg"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.4-Blog4/figure-1.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/image-04-1024x729.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.4-Blog4/figure-2.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/19/image-05-1024x229.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.4-Blog4/figure-3.jpg",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/03/05/micawal.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3.5-Blog5",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/",
+    "images": [
+      {
+        "path": "/images/3-BlogsTranslated/3.5-Blog5/hero.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/10/07/EC2-F2b.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.5-Blog5/figure-1.jpg",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/01/13/AWS-59-cropped.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3.6-Blog6",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
+    "images": [
+      {
+        "path": "/images/3-BlogsTranslated/3.6-Blog6/hero.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/16/s3-annotations-header-image.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.6-Blog6/figure-1.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/13/2026-s3-annotations-add.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.6-Blog6/figure-2.png",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/13/2026-s3-annotations-list.png"
+      },
+      {
+        "path": "/images/3-BlogsTranslated/3.6-Blog6/figure-3.jpeg",
+        "src": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/03/20/Daniel-Badge-Seattle-683x1024.jpeg"
+      }
+    ]
+  }
+]

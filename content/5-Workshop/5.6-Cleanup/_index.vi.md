@@ -1,76 +1,146 @@
 ---
-title : "Thu hồi tài nguyên"
-date : 2024-01-01
-weight : 6
-chapter : false
-pre : " <b> 5.6. </b> "
+title: "Dọn dẹp Tài nguyên"
+date: 2026-05-11
+weight: 6
+chapter: false
+pre: " <b> 6. </b> "
 ---
 
-#### Mục tiêu thu hồi tài nguyên
-
-Môi trường AWS của đề tài được thiết kế theo hướng tạm thời: dựng lên khi cần kiểm thử hoặc demo, sau đó thu hồi để tránh phát sinh chi phí. Vì vậy, bước cleanup là một phần quan trọng của quy trình vận hành, không phải chỉ là thao tác phụ sau cùng.
-
-#### Tổng kết quy trình đã triển khai
-
-Trước khi thu hồi, workshop đã hoàn tất các nội dung:
-
-+ Chạy stack microservices bằng Docker Compose.
-+ Tạo hạ tầng AWS bằng Terraform.
-+ Cài AWS Load Balancer Controller, External Secrets Operator, Argo CD và monitoring.
-+ Đồng bộ ứng dụng lên EKS bằng GitOps.
-+ Công bố frontend qua ALB.
-+ Thiết lập quan sát bằng Prometheus, Grafana và CloudWatch.
-
-#### Thu hồi hạ tầng AWS
-
-Trước khi destroy, kiểm tra đúng AWS account, region và thư mục môi trường. Các tài nguyên có thể bị xóa gồm EKS cluster, RDS instance, ALB, NAT Gateway và các tài nguyên liên quan.
-
-~~~powershell
-cd infra/environments/aws
-terraform destroy -auto-approve
-aws eks list-clusters --region ap-southeast-1
-terraform state list
-~~~
-
-Kết quả mong đợi: <code>clusters: []</code> và <code>(no resources – state empty)</code>. Ảnh minh chứng ghi nhận thời gian destroy tiêu biểu: RDS ~5 phút, EKS cluster ~10 phút, VPC ~7 phút.
-
-![Kết quả terraform destroy -auto-approve và xác minh cluster đã xóa (chụp thực tế)](/images/5-Workshop/5.6-Cleanup/terraform-destroy-live.png)
+# Bước 4: Dọn dẹp Tài nguyên
 
 {{% notice warning %}}
-EKS, RDS, NAT Gateway và ALB đều có thể phát sinh chi phí. Sau khi demo xong, cần thu hồi tài nguyên để tránh chi phí kéo dài.
+Luôn xóa các tài nguyên AWS sau khi kiểm thử để tránh phát sinh chi phí không mong muốn.
 {{% /notice %}}
 
-#### Kiểm tra sau khi destroy
+## Danh Sách Kiểm Tra
 
-- [ ] <code>aws eks list-clusters --region ap-southeast-1</code> không còn cluster demo.
-- [ ] RDS instance đã được xóa.
-- [ ] Load Balancer đã được thu hồi.
-- [ ] NAT Gateway không còn tồn tại.
-- [ ] Docker Compose local đã được dừng nếu không dùng nữa.
+- [ ] Xóa API Gateway (TodoAPI)
+- [ ] Xóa Lambda Functions (CreateTodo, GetTodos, UpdateTodo, DeleteTodo)
+- [ ] Xóa DynamoDB Table (todos)
+- [ ] Xóa IAM Roles đã tạo cho Lambda
+- [ ] Xóa CloudWatch Log Groups
 
-#### Lưu ý về remote state
+---
 
-S3 bucket và DynamoDB table dùng cho Terraform remote state được tạo ở bước bootstrap riêng. Các tài nguyên này có thể được giữ lại để phục vụ lần triển khai sau, thay vì xóa cùng môi trường ứng dụng.
+## 1. Xóa API Gateway
 
-#### Thu hồi môi trường local
+### Qua Console
 
-~~~powershell
-cd <repo-root>
-docker compose down -v
-~~~
+1. Truy cập [API Gateway Console](https://console.aws.amazon.com/apigateway/)
+2. Click vào **TodoAPI**
+3. Click **Actions** → **Delete API**
+4. Nhập tên API để xác nhận, sau đó click **Delete**
 
-Tùy chọn <code>-v</code> xóa cả volume, giúp lần chạy tiếp theo bắt đầu từ trạng thái sạch.
+### Qua CLI
 
-#### Tài liệu tham khảo
+```bash
+API_ID=$(aws apigateway get-rest-apis \
+  --query 'items[?name==`TodoAPI`].id' \
+  --output text)
 
-| Tài liệu | Đường dẫn |
-|----------|-----------|
-| Hướng dẫn khởi tạo AWS | <code>docs/runbooks/aws-up.md</code> |
-| Hướng dẫn thu hồi AWS | <code>docs/runbooks/aws-down.md</code> |
-| Checklist demo | <code>docs/runbooks/demo-checklist.md</code> |
-| Kiến trúc hệ thống | <code>docs/architecture.md</code> |
-| GitHub Actions setup | <code>docs/runbooks/github-actions-setup.md</code> |
+aws apigateway delete-rest-api --rest-api-id $API_ID
+```
 
-#### Kết luận
+---
 
-Thu hồi tài nguyên giúp kiểm soát chi phí và chứng minh rằng hạ tầng của đề tài có thể được quản lý trọn vòng đời bằng Infrastructure as Code.
+## 2. Xóa Lambda Functions
+
+### Qua Console
+
+1. Truy cập [Lambda Console](https://console.aws.amazon.com/lambda/)
+2. Đánh dấu chọn cả 4 function:
+   - `CreateTodo`
+   - `GetTodos`
+   - `UpdateTodo`
+   - `DeleteTodo`
+3. Click **Actions** → **Delete**
+4. Nhập `delete` để xác nhận, sau đó click **Delete**
+
+### Qua CLI
+
+```bash
+aws lambda delete-function --function-name CreateTodo
+aws lambda delete-function --function-name GetTodos
+aws lambda delete-function --function-name UpdateTodo
+aws lambda delete-function --function-name DeleteTodo
+```
+
+---
+
+## 3. Xóa DynamoDB Table
+
+### Qua Console
+
+1. Truy cập [DynamoDB Console](https://console.aws.amazon.com/dynamodb/)
+2. Click **Tables** ở menu bên trái
+3. Chọn bảng `todos`
+4. Click **Actions** → **Delete table**
+5. Đánh dấu **Delete all CloudWatch alarms for this table**
+6. Nhập `confirm` và click **Delete**
+
+### Qua CLI
+
+```bash
+aws dynamodb delete-table --table-name todos
+```
+
+---
+
+## 4. Xóa IAM Roles
+
+1. Truy cập [IAM Console](https://console.aws.amazon.com/iam/)
+2. Click **Roles** ở menu bên trái
+3. Tìm kiếm các role đã tạo trong workshop (ví dụ: tên chứa `todo` hoặc `lambda`)
+4. Chọn từng role và click **Delete**
+5. Nhập tên role để xác nhận, sau đó click **Delete**
+
+---
+
+## 5. Xóa CloudWatch Log Groups
+
+### Qua Console
+
+1. Truy cập [CloudWatch Console](https://console.aws.amazon.com/cloudwatch/)
+2. Click **Log groups** ở menu bên trái
+3. Tìm kiếm `/aws/lambda/`
+4. Chọn 4 log groups:
+   - `/aws/lambda/CreateTodo`
+   - `/aws/lambda/GetTodos`
+   - `/aws/lambda/UpdateTodo`
+   - `/aws/lambda/DeleteTodo`
+5. Click **Actions** → **Delete log group(s)**
+6. Click **Delete** để xác nhận
+
+### Qua CLI
+
+```bash
+aws logs delete-log-group --log-group-name /aws/lambda/CreateTodo
+aws logs delete-log-group --log-group-name /aws/lambda/GetTodos
+aws logs delete-log-group --log-group-name /aws/lambda/UpdateTodo
+aws logs delete-log-group --log-group-name /aws/lambda/DeleteTodo
+```
+
+---
+
+## 6. Xác Minh Đã Dọn Xong
+
+Chạy các lệnh sau để xác nhận tất cả tài nguyên đã được xóa:
+
+```bash
+# Phải trả về danh sách rỗng
+aws lambda list-functions \
+  --query "Functions[?contains(FunctionName,'Todo')].FunctionName"
+
+# Phải trả về danh sách rỗng
+aws dynamodb list-tables \
+  --query "TableNames[?contains(@,'todos')]"
+
+# Phải trả về danh sách rỗng
+aws apigateway get-rest-apis \
+  --query "items[?name=='TodoAPI'].id"
+```
+
+Tất cả lệnh phải trả về `[]`.
+
+---
+

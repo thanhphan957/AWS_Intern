@@ -1,30 +1,29 @@
 ﻿---
+
 title: "Week 3 Worklog"
 date: 2026-05-04
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
----
-### Week 3 objectives:
+----------------------
 
-* Review Week 2 content on Cost management with Budgets, IAM security, VPC networking, and S3 storage.
-* Practice IAM Roles for EC2 and AWS Cloud9; provision a basic Amazon RDS database.
-* Monitor resources with Amazon CloudWatch; clean up lab resources proactively.
+### Week 3 Objectives:
 
-### Week timeframe: **May 4–10, 2026**
+* Explore AWS database services in depth.
+* Study and understand AWS Bedrock and its real-world AI applications.
 
-### Tasks to be carried out this week:
+### Detailed tasks performed during the week:
 
-| Day | Task | Start Date | Completion Date | Reference material |
-| --- | --- | --- | --- | --- |
-| Mon -> Wed | - Study and practice IAM Roles for EC2: <br>&emsp; + Create an IAM Role, attach policies, and assign the role to an EC2 instance. <br>&emsp; + Verify EC2 access to S3 with the AWS CLI without configuring Access Keys directly on the instance. | May 4, 2026 | May 6, 2026 | [Lab 48](https://000048.awsstudygroup.com/) |
-| Thu | - Explore AWS Cloud9: <br>&emsp; + Get comfortable with the cloud IDE, terminal, and basic AWS CLI commands. | May 7, 2026 | May 7, 2026 | [Practice 49](https://000049.awsstudygroup.com/) |
-| Fri -> Sat | - Study and practice Amazon RDS: <br>&emsp; + Study DB instances, DB engines, endpoints, backups, and snapshots. <br>&emsp; + Create a Free Tier MySQL/PostgreSQL instance, configure Security Groups, and connect from EC2 or Cloud9. <br> - Amazon CloudWatch fundamentals: <br>&emsp; + Monitor EC2/RDS metrics and create a simple alarm. <br> - Cleanup: Remove resources after hands-on work to limit unexpected charges. | May 8, 2026 | May 9, 2026 | [Practice 5](https://000005.awsstudygroup.com/) <br> [Practice 8](https://000008.awsstudygroup.com/) |
+| Day | Task                                       | Start | End Date | Resources |
+| --- | ------------------------------------------ | ---------- | --------------- | ------------------ |
+| 2   | Learn Amazon RDS and DynamoDB services     | 04/05/2026 | 04/05/2026      | AWS Docs           |
+| 3   | Hands-on practice with creating databases on RDS         | 05/05/2026 | 05/05/2026      | AWS Hands-on practice with       |
+| 4   | Study AWS Bedrock and AI foundation models | 06/05/2026 | 06/05/2026      | AWS Docs           |
+| 5   | Hands-on practice with calling Bedrock APIs              | 07/05/2026 | 08/05/2026      | AWS Hands-on practice with       |
+| 6   | Review knowledge and create demo           | 09/05/2026 | 09/05/2026      | Internal Docs      |
 
-### Week 3 achievements:
+### Week 3 Achievements:
 
-* Can grant EC2 permissions securely using IAM Roles.
-
-* Comfortable with Cloud9 for practice and development in the cloud.
-
-* Can create and connect to a basic RDS instance and monitor resources with CloudWatch.
+* Better understanding of RDS and DynamoDB.
+* Successfully created databases on AWS.
+* Learned how AWS Bedrock works and AI integration basics.

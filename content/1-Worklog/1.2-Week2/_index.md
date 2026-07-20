@@ -1,32 +1,42 @@
----
+﻿---
+
 title: "Week 2 Worklog"
-date: 2026-04-27
+date: 2026-04-26
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
----
-### Week 2 objectives:
+----------------------
+### Week 2 Objectives:
 
-* Review Week 1 topics: AWS Console, AWS CLI, EC2, EBS, SSH, and Elastic IP.
-* Learn cost management with AWS Budgets and access administration with IAM (theory + hands-on practice).
-* Understand networking with Amazon VPC; practice core VPC tasks and Amazon S3 (objects + static websites).
+* Complete AWS learning modules 1 and 2.
+* Learn how to design and create a database.
+* Hands-on practice with building a basic database system and demo.
 
-### Week timeframe: **April 27–May 3, 2026**
+### Detailed tasks performed during the week:
 
-### Tasks to be carried out this week:
+| Day | Task                                                                            | Start | End Date | Resources     |
+| --- | ------------------------------------------------------------------------------- | ---------- | --------------- | ---------------------- |
+| 2   | - Study AWS Module 1 <br> - Learn the basic architecture of Cloud Computing     | 26/04/2026 | 26/04/2026      | AWS Documentation      |
+| 3   | - Study AWS Module 2 <br> - Learn AWS database services                         | 27/04/2026 | 27/04/2026      | AWS Documentation      |
+| 4   | - Design a simple database schema <br> - Set up tables and define relationships | 28/04/2026 | 28/04/2026      | Database Documentation |
+| 5   | - Insert sample data <br> - Perform basic CRUD operations for testing           | 29/04/2026 | 30/04/2026      | Hands-on practice with Lab           |
+| 6   | - Build a basic demo connected to the database <br> - Test system functionality | 01/05/2026 | 02/05/2026      | Project Hands-on practice with       |
 
-| Day | Task | Start Date | Completion Date | Reference material |
-| --- | --- | --- | --- | --- |
-| Mon -> Wed | - Study access administration with AWS Identity and Access Management (IAM): <br>&emsp; + IAM Users, IAM Groups, IAM Policies, and IAM Roles. <br>&emsp; + Least-privilege access principles and account security. <br> - IAM hands-on practice: <br>&emsp; + Create IAM Groups, IAM Users and attach appropriate policies. <br>&emsp; + Sign in, verify permissions as an IAM User, and explore basic IAM Roles. | April 27, 2026 | April 29, 2026 | [Practice 2](https://000002.awsstudygroup.com/) |
-| Thu -> Fri | - Study networking with Amazon VPC: <br>&emsp; + VPC, Subnets, Route Tables, Internet Gateway. <br>&emsp; + Public vs private subnets, Security Groups, and Network ACLs. <br> - Basic VPC hands-on practice: <br>&emsp; + Create a VPC, Subnets, Internet Gateway, and Route Tables. <br>&emsp; + Configure Security Groups for EC2 and validate connectivity. | April 30, 2026 | May 1, 2026 | [Practice 3](https://000003.awsstudygroup.com/) |
-| Sat -> Sun | - Study and practice Amazon S3: <br>&emsp; + Create an S3 bucket and upload HTML/CSS files. <br> - Explore cost management with AWS Budgets: <br>&emsp; + Cost budgets, usage budgets, and cost alerts. | May 2, 2026 | May 3, 2026 | [Lab 57](https://000057.awsstudygroup.com/) <br> [Practice 7](https://000007.awsstudygroup.com/) |
+### Week 2 Achievements:
 
-### Week 2 achievements:
+* Successfully completed AWS learning modules 1 and 2.
 
-* Can control costs with AWS Budgets and configure basic alerts.
+* Gained a deeper understanding of cloud computing architecture and database services.
 
-* Understand IAM authorization and the roles of Users, Groups, Policies, and Roles.
+* Designed and created a basic database successfully.
 
-* Understand core VPC networking components and how EC2 connects to the Internet.
+* Successfully practiced:
 
-* Can use S3 for object storage and simple static website hosting.
+  * Creating tables
+  * Setting up relationships
+  * Inserting sample data
+  * Performing basic CRUD operations
+
+* Built a basic demo connected to the database.
+
+* Established a stronger foundation for developing more advanced systems in the following weeks.

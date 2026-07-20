@@ -1,31 +1,44 @@
 ---
-title: "Workshop"
-date: 2026-07-04
-weight: 5
-chapter: false
+title : "Workshop"
+date: 2026-05-11 
+weight : 5 
+chapter : false
 pre: " <b> 5. </b> "
 ---
 
-# Mini E-commerce DevOps Platform
+### Tổng quan
 
-#### Tổng quan nội dung workshop
+Trong workshop này, bạn sẽ xây dựng một **API Ứng dụng Todo Serverless** hoàn chỉnh sử dụng ba dịch vụ AWS cốt lõi. Bạn sẽ học cách thiết kế, triển khai và kiểm thử một REST API hoàn toàn serverless — không cần quản lý máy chủ, tự động mở rộng và tính phí theo lượng sử dụng.
 
-Mục 5 trình bày quá trình triển khai thực nghiệm của đề tài Mini E-commerce DevOps Platform. Nội dung được viết theo hướng báo cáo kỹ thuật, không chỉ liệt kê câu lệnh mà còn giải thích mục tiêu, bối cảnh, kết quả mong đợi và ý nghĩa của từng giai đoạn triển khai.
+![Kiến trúc](/images/workshop-architecture.png)
 
-Đề tài sử dụng ứng dụng Online Boutique làm workload microservices mẫu, sau đó xây dựng thêm lớp DevOps gồm Docker Compose, Terraform, Amazon EKS, Amazon ECR, Amazon RDS, GitHub Actions, Argo CD, External Secrets Operator, Prometheus, Grafana và CloudWatch. Việc triển khai được chia thành hai môi trường chính: môi trường local để kiểm thử đầy đủ nghiệp vụ và môi trường AWS để chứng minh khả năng vận hành trên hạ tầng cloud thực tế.
+### Kiến trúc
 
-#### Phạm vi triển khai
+```
+Client (Postman/Browser)
+         ↓
+Amazon API Gateway  (HTTP Endpoints)
+         ↓
+AWS Lambda Functions  (CRUD Business Logic)
+         ↓
+Amazon DynamoDB  (NoSQL Storage)
+```
 
-+ Môi trường local dùng Docker Compose để chạy đầy đủ các service của ứng dụng, bao gồm frontend, catalog, cart, checkout, currency, shipping, payment, email, Redis và PostgreSQL.
-+ Môi trường AWS dùng EKS và GitOps để triển khai 6 workload trong namespace boutique (frontend, catalog, cart, checkout, currency, redis), phơi bày giao diện qua Application Load Balancer và quản lý secret qua AWS Secrets Manager.
-+ Hạ tầng cloud được tạo bằng Terraform, có thể dựng lại và thu hồi theo mô hình tạm thời nhằm kiểm soát chi phí.
-+ Quy trình CI/CD sử dụng GitHub Actions với OIDC, build image, push lên ECR, quét bảo mật và cập nhật repository GitOps.
+### Dịch vụ AWS sử dụng
 
-#### Cấu trúc mục 5
+| Dịch vụ | Vai trò |
+|---|---|
+| **Amazon API Gateway** | Cung cấp các HTTP endpoint công khai, xử lý routing |
+| **AWS Lambda** | Các hàm serverless xử lý từng thao tác CRUD |
+| **Amazon DynamoDB** | Cơ sở dữ liệu NoSQL được quản lý hoàn toàn |
+| **AWS IAM** | Kiểm soát truy cập và bảo mật least-privilege |
+| **Amazon CloudWatch** | Giám sát, logging và metrics |
 
-1. [Giới thiệu tổng quan](5.1-Workshop-overview/) trình bày kiến trúc triển khai, phạm vi và mô hình hai repository.
-2. [Chuẩn bị môi trường](5.2-prerequisite/) mô tả công cụ, AWS CLI, Terraform backend và cấu hình ban đầu.
-3. [Phát triển local với Docker Compose](5.3-local-docker-compose/) kiểm thử ứng dụng ở môi trường cục bộ trước khi triển khai cloud.
-4. [Triển khai lên AWS EKS](5.4-aws-eks/) dựng hạ tầng, cài thành phần nền tảng và đồng bộ ứng dụng qua GitOps.
-5. [CI/CD và bảo mật](5.5-cicd-security/) trình bày pipeline, OIDC, quét lỗ hổng, ký image và quản lý secret.
-6. [Thu hồi tài nguyên](5.6-Cleanup/) mô tả cách dọn dẹp môi trường sau demo để tránh phát sinh chi phí.
+### Nội dung
+
+1. [Giới thiệu](5.1-introduce/)
+2. [Điều kiện tiên quyết](5.2-prerequiste/)
+3. [Tạo DynamoDB Table](5.3-setup/)
+4. [Tạo Lambda Functions](5.4-implementation/)
+5. [Cấu hình API Gateway & Kiểm thử](5.5-testing/)
+6. [Dọn dẹp Tài nguyên](5.6-cleanup/)

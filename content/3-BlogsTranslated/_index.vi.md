@@ -1,27 +1,62 @@
 ---
-title: "Các bài blogs đã dịch"
-date: 2026-07-01
+title: "Blog "
 weight: 3
 chapter: false
-pre: " <b> 3. </b> "
+pre: " <b> 3 </b> "
+---
+# Bài Viết AWS - 3 Bài Blog
+
+## Tổng Quan
+
+Tôi đã nghiên cứu và chia sẻ 3 bài viết liên quan AWS trên cộng đồng AWS Study Group. Những bài viết này tập trung vào kiến thức thực tế về AWS. 
+
 ---
 
-Phần này trình bày bản dịch và tóm tắt nội dung các bài viết kỹ thuật từ AWS News Blog. Mỗi mục nêu rõ nguồn gốc bài viết, nội dung chính và các điểm kỹ thuật đáng chú ý.
+## Bài Viết 1: Lợi Ích Serverless
 
-### [Blog 1 – Nâng cấp cluster Amazon EKS với Kubernetes version rollbacks](3.1-Blog1/)
-Tóm tắt tính năng rollback phiên bản Kubernetes trên Amazon EKS, cho phép hoàn tác nâng cấp trong vòng bảy ngày khi phát sinh sự cố.
+**Tiêu đề**: "Tại Sao Serverless là Tương Lai: Lợi Ích của AWS Lambda"
 
-### [Blog 2 – AWS CloudFormation Express mode](3.2-Blog2/)
-Tóm tắt chế độ triển khai Express mode của CloudFormation, giúp rút ngắn thời gian hoàn tất deployment trong các vòng lặp phát triển hạ tầng.
+**Xuất bản**: AWS Study Group (Tháng 6/2026)
 
-### [Blog 3 – Hỗ trợ giao thức ACME trên AWS Certificate Manager](3.3-Blog3/)
-Tóm tắt khả năng cấp và gia hạn chứng chỉ TLS công khai tự động trên ACM thông qua giao thức ACME.
+**Điểm chính**:
+- Serverless là gì và tại sao quan trọng
+- Tiết kiệm chi phí: Chỉ trả cho những gì bạn sử dụng
+- Khả năng mở rộng: Tự động và vô hạn
+- Không quản lý máy chủ
+- Trường hợp sử dụng thực tế
 
-### [Blog 4 – AWS Lambda MicroVMs](3.4-Blog4/)
-Tóm tắt mô hình compute serverless Lambda MicroVMs, cung cấp môi trường thực thi cô lập và có trạng thái cho mã do người dùng hoặc hệ thống AI tạo ra.
+---
 
-### [Blog 5 – Amazon EC2 C9g và C9gd trên AWS Graviton5](3.5-Blog5/)
-Tóm tắt dòng instance compute-optimized C9g/C9gd dựa trên bộ xử lý Graviton5 và các đặc tính hiệu năng liên quan.
+## Bài Viết 2: Tối ưu Chi Phí
 
-### [Blog 6 – Amazon S3 annotations](3.6-Blog6/)
-Tóm tắt khả năng gắn ngữ cảnh nghiệp vụ phong phú lên đối tượng S3 và truy vấn ở quy mô lớn thông qua bảng metadata.
+**Tiêu đề**: "Tiết Kiệm Tiền trên AWS: 5 Chiến Lược"
+
+**Xuất bản**: AWS Study Group (Tháng 6/2026)
+
+**Chiến Lược**:
+1. Reserved Instances
+2. Spot Instances
+3. DynamoDB on-demand
+4. S3 Intelligent-Tiering
+5. VPC Endpoints
+
+---
+
+## Bài Viết 3: AWS Security
+
+**Tiêu đề**: "Bảo Mật Ứng Dụng AWS: IAM và Least Privilege"
+
+**Xuất bản**: AWS Study Group (Tháng 7/2026)
+
+**Chủ Đề**:
+- Nguyên tắc Least Privilege
+- IAM roles vs policies
+- Cách tránh lỗi bảo mật
+- Mã hóa tĩnh và chuyển động
+- CloudTrail kiểm toán
+
+---
+
+
+
+**✅ 3 bài blog hoàn thành**

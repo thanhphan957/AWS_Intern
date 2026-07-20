@@ -1,33 +1,30 @@
----
+﻿---
+
 title: "Worklog Tuần 5"
 date: 2026-05-18
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
----
+----------------------
 
-### Mục tiêu tuần 5:
+### Mục tiêu học tập tuần 5:
 
-* **Nghiên cứu cơ chế và phương thức lưu trữ đối tượng** (Object Storage) với Amazon S3.
-* **Triển khai các giải pháp an toàn dữ liệu** thông qua S3 Versioning, Lifecycle policies và Replication.
-* **Làm quen với việc quản lý và lưu trữ** các image container bằng dịch vụ Amazon ECR.
+* Tiếp tục hoàn thiện Module 3.
+* Nghiên cứu và tìm hiểu về AWS Budgets.
+* Học cách quản lý ngân sách và chi phí.
 
-### Khung thời gian tuần: **18/05/2026 – 24/05/2026**
+### Danh sách nhiệm vụ thực hiện trong tuần:
 
-### Các công việc cần triển khai trong tuần này:
+| Thứ | Công việc                   | Bắt đầu | Hoàn tất | Tài liệu tham khảo |
+| --- | --------------------------- | ------------ | --------------- | -------------- |
+| 2   | Tiếp tục học Module 3       | 18/05/2026   | 18/05/2026      | AWS Docs       |
+| 3   | Nghiên cứu và tìm hiểu AWS Budgets        | 19/05/2026   | 19/05/2026      | AWS Docs       |
+| 4   | Tạo ngân sách thử nghiệm    | 20/05/2026   | 20/05/2026      | AWS Practice   |
+| 5   | Cấu hình cảnh báo chi tiêu | 21/05/2026   | 22/05/2026      | AWS Practice   |
+| 6   | Theo dõi usage và chi phí   | 23/05/2026   | 23/05/2026      | Internal Docs  |
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| Thứ 2 | Nghiên cứu tổng quan về cấu trúc hạ tầng và các trường hợp sử dụng thực tế của Amazon S3. | 18/05/2026 | 18/05/2026 | [Bài thực hành 57](https://000057.awsstudygroup.com/) |
-| Thứ 3 | Thực hành khởi tạo S3 Bucket, thực hiện upload/download dữ liệu và thiết lập chính sách phân quyền truy cập. | 19/05/2026 | 19/05/2026 | [Bài thực hành 57](https://000057.awsstudygroup.com/) |
-| Thứ 4 | Cấu hình tính năng S3 Versioning để quản lý đa phiên bản và thử nghiệm kịch bản khôi phục dữ liệu bị xóa. | 20/05/2026 | 20/05/2026 | [Bài thực hành 57](https://000057.awsstudygroup.com/) |
-| Thứ 5 | Thiết lập các quy tắc Lifecycle (vòng đời dữ liệu) và tối ưu hóa chi phí bằng cách luân chuyển qua các lớp lưu trữ S3. | 21/05/2026 | 21/05/2026 | [Bài thực hành 57](https://000057.awsstudygroup.com/) |
-| Thứ 6 | Cấu hình tự động đồng bộ qua S3 Replication; đồng thời thực hành tạo repository và đẩy/quản lý ảnh Docker trên Amazon ECR. | 22/05/2026 | 23/05/2026 | [Bài thực hành 57](https://000057.awsstudygroup.com/) |
+### Tổng kết kết quả tuần 5:
 
-### Kết quả đạt được tuần 5:
-
-* Nắm vững quy trình quản trị, lưu trữ dữ liệu an toàn và linh hoạt trên nền tảng Amazon S3.
-
-* Kích hoạt thành thạo các cơ chế bảo vệ nâng cao bao gồm kiểm soát phiên bản, tự động hóa vòng đời và sao chép dữ liệu liên vùng.
-
-* Làm chủ thao tác quản lý, lưu trữ và bảo mật các image Docker với kho lưu trữ Amazon ECR.
+* Hiểu cách quản lý ngân sách AWS.
+* Cấu hình thành công budget alerts.
+* Theo dõi được mức tiêu thụ tài nguyên.

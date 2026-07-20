@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 3 Worklog"
 date: 2026-05-04
 weight: 3
@@ -7,7 +7,7 @@ pre: " <b> 1.3. </b> "
 ---
 ### Week 3 objectives:
 
-* Review Week 2 content on AWS Budgets, IAM, VPC, and Amazon S3.
+* Review Week 2 content on Cost management with Budgets, IAM security, VPC networking, and S3 storage.
 * Practice IAM Roles for EC2 and AWS Cloud9; provision a basic Amazon RDS database.
 * Monitor resources with Amazon CloudWatch; clean up lab resources proactively.
 

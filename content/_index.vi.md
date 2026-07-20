@@ -11,13 +11,13 @@ chapter: false
 
 &emsp; **Email:** bathanh040824@gmail.com
 
-&emsp; **Trường:** Đại học Công Nghệ (HUTECH)
+&emsp; **Trường:** Đại học Công Nghệ TP.HCM (HUTECH)
 
 &emsp; **Ngành:** Công nghệ thông tin
 
 &emsp; **Lớp:** 22DTHH1
 
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
+&emsp; **Công ty thực tập:** Amazon Web Services Vietnam Co., Ltd.
 
 &emsp; **Vị trí thực tập:** FCAJ Cloud Intern
 

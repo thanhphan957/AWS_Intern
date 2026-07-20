@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 12 Worklog"
 date: 2026-07-06
 weight: 12
@@ -8,22 +8,25 @@ pre: " <b> 1.12. </b> "
 
 ### Week 12 Objectives:
 
-* Perform comprehensive system testing.
-* Complete the internship report and project documentation.
-* Prepare for the project handover and final presentation.
+* Perform load and performance tests on the Serverless API.
+* Finalize the official internship report and handover folders.
+* Clean up AWS resources to prevent billing issues.
 
-### Tasks Completed:
+### Weekly Timeframe: **06/07/2026 – 12/07/2026**
 
-* Tested all system functionalities.
-* Fixed the remaining issues and finalized the project.
-* Completed the internship report.
-* Finalized the technical documentation and system architecture diagrams.
-* Prepared the project demonstration and handover materials.
+### Tasks to be carried out this week:
 
-### Results Achieved:
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Monday | - Use Artillery CLI tool to perform load testing on API Gateway endpoints. | 06/07/2026 | 06/07/2026 | Artillery Docs |
+| Tuesday | - Export Latency and Response Time graphs from CloudWatch metrics for the final report. | 07/07/2026 | 07/07/2026 | CloudWatch Logs |
+| Wednesday | - Compile and format the final Internship Report document and export to PDF. | 08/07/2026 | 09/07/2026 | Internship Report |
+| Thursday | - Record and edit a video demonstration showcasing frontend features and auth flows. | 09/07/2026 | 10/07/2026 | Video Demo |
+| Friday | - Delete Cognito pools, SAM stacks, CloudFront setups, and S3 assets to clean the account. | 10/07/2026 | 11/07/2026 | AWS Console |
+| Saturday | - Attend final internship exit interview with AWS Vietnam mentors and managers. | 11/07/2026 | 11/07/2026 | Team Docs |
 
-* Successfully completed comprehensive system testing.
-* Resolved the remaining issues and finalized the project.
-* Completed the internship report and technical documentation.
-* Successfully prepared the project demonstration and handover.
-* Successfully completed the internship and achieved the project objectives.
+### Outcomes achieved in week 12:
+
+* Obtained positive load test results with Lambda auto-scaling smoothly.
+* Completed 100% of the final internship report with high quality.
+* Cleared all sandbox AWS resources to prevent charges.

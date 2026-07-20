@@ -1,42 +1,32 @@
 ﻿---
-
 title: "Week 2 Worklog"
-date: 2026-04-26
+date: 2026-04-27
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
-----------------------
+---
+
 ### Week 2 Objectives:
 
-* Complete AWS learning modules 1 and 2.
-* Learn how to design and create a database.
-* Hands-on practice with building a basic database system and demo.
+* Explore database services on AWS (SQL and NoSQL).
+* Design and build relational database models.
+* Practice provisioning Amazon RDS MySQL databases.
 
-### Detailed tasks performed during the week:
+### Weekly Timeframe: **27/04/2026 – 03/05/2026**
 
-| Day | Task                                                                            | Start | End Date | Resources     |
-| --- | ------------------------------------------------------------------------------- | ---------- | --------------- | ---------------------- |
-| 2   | - Study AWS Module 1 <br> - Learn the basic architecture of Cloud Computing     | 26/04/2026 | 26/04/2026      | AWS Documentation      |
-| 3   | - Study AWS Module 2 <br> - Learn AWS database services                         | 27/04/2026 | 27/04/2026      | AWS Documentation      |
-| 4   | - Design a simple database schema <br> - Set up tables and define relationships | 28/04/2026 | 28/04/2026      | Database Documentation |
-| 5   | - Insert sample data <br> - Perform basic CRUD operations for testing           | 29/04/2026 | 30/04/2026      | Hands-on practice with Lab           |
-| 6   | - Build a basic demo connected to the database <br> - Test system functionality | 01/05/2026 | 02/05/2026      | Project Hands-on practice with       |
+### Tasks to be carried out this week:
 
-### Week 2 Achievements:
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Monday | - Study relational database (RDBMS) vs non-relational database (NoSQL) theories.<br>- Differentiate AWS database services: RDS, DynamoDB, Aurora. | 27/04/2026 | 27/04/2026 | AWS Database Docs |
+| Tuesday | - Learn details of Amazon RDS architecture.<br>- Study core concepts: Multi-AZ deployments, Read Replicas, automated Backups, and Restores. | 28/04/2026 | 28/04/2026 | AWS RDS Docs |
+| Wednesday | - Practice designing a basic relational database schema for a task management application.<br>- Define tables, primary keys, foreign keys, and relationships. | 29/04/2026 | 29/04/2026 | Database Design |
+| Thursday | - Launch a free-tier RDS MySQL database instance on AWS Console.<br>- Configure DB Subnet Groups and Security Groups to allow incoming traffic. | 30/04/2026 | 30/04/2026 | AWS Practice Lab |
+| Friday | - Use DBeaver client to connect to the RDS database using the DB Endpoint.<br>- Run basic SQL CRUD commands: CREATE TABLE, INSERT, UPDATE, SELECT. | 01/05/2026 | 01/05/2026 | SQL Guides |
+| Saturday | - Review RDS lab performance in weekly team meeting.<br>- Delete the RDS MySQL instance to prevent Free Tier budget overrun. | 02/05/2026 | 02/05/2026 | Team Docs |
 
-* Successfully completed AWS learning modules 1 and 2.
+### Outcomes achieved in week 2:
 
-* Gained a deeper understanding of cloud computing architecture and database services.
-
-* Designed and created a basic database successfully.
-
-* Successfully practiced:
-
-  * Creating tables
-  * Setting up relationships
-  * Inserting sample data
-  * Performing basic CRUD operations
-
-* Built a basic demo connected to the database.
-
-* Established a stronger foundation for developing more advanced systems in the following weeks.
+* Understood differences between SQL and NoSQL database models.
+* Successfully designed Entity-Relationship Diagram (ERD) for a task management app.
+* Initialized and connected to RDS MySQL database successfully.

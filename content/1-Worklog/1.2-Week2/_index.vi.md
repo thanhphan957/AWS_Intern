@@ -1,43 +1,32 @@
 ﻿---
-
 title: "Worklog Tuần 2"
-date: 2026-04-26
+date: 2026-04-27
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
-----------------------
+---
 
-### Mục tiêu học tập tuần 2:
+### Mục tiêu tuần 2:
 
-* Hoàn tất module 1 và module 2 về AWS.
-* Nghiên cứu và tìm hiểu cách thiết kế và tạo cơ sở dữ liệu.
-* Thực nghiệm thực tế xây dựng database và demo cơ bản.
+* Tìm hiểu các dịch vụ cơ sở dữ liệu trên AWS (SQL và NoSQL).
+* Thiết kế và xây dựng sơ đồ cơ sở dữ liệu quan hệ.
+* Thực hành tạo cơ sở dữ liệu Amazon RDS MySQL.
 
-### Danh sách nhiệm vụ thực hiện trong tuần:
+### Khung thời gian tuần: **27/04/2026 – 03/05/2026**
 
-| Thứ | Công việc                                                                            | Bắt đầu | Hoàn tất | Tài liệu tham khảo         |
-| --- | ------------------------------------------------------------------------------------ | ------------ | --------------- | ---------------------- |
-| 2   | - Học Module 1 AWS <br> - Nghiên cứu và tìm hiểu kiến trúc cơ bản của Cloud Computing              | 26/04/2026   | 26/04/2026      | AWS Documentation      |
-| 3   | - Học Module 2 AWS <br> - Nghiên cứu và tìm hiểu các dịch vụ cơ sở dữ liệu trên AWS                | 27/04/2026   | 27/04/2026      | AWS Documentation      |
-| 4   | - Thiết kế sơ đồ database cơ bản <br> - Tạo bảng và định nghĩa quan hệ giữa các bảng | 28/04/2026   | 28/04/2026      | Database Documentation |
-| 5   | - Nhập dữ liệu mẫu <br> - Thực hiện các thao tác CRUD cơ bản để kiểm tra             | 29/04/2026   | 30/04/2026      | Practice Lab           |
-| 6   | - Cấu hình và xây dựng demo cơ bản kết nối với database <br> - Xác minh và kiểm tra hoạt động hệ thống       | 01/05/2026   | 02/05/2026      | Project Practice       |
+### Các công việc cần triển khai trong tuần này:
 
-### Tổng kết kết quả tuần 2:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| Thứ 2 | - Nghiên cứu lý thuyết cơ sở dữ liệu quan hệ (RDBMS) và phi quan hệ (NoSQL).<br>- Tìm hiểu các dịch vụ database trên AWS: RDS, DynamoDB, Aurora. | 27/04/2026 | 27/04/2026 | AWS Database Docs |
+| Thứ 3 | - Tìm hiểu chi tiết dịch vụ Amazon RDS.<br>- Nghiên cứu các tính năng cốt lõi: Multi-AZ, Read Replicas, Backup tự động và Restore. | 28/04/2026 | 28/04/2026 | AWS RDS Docs |
+| Thứ 4 | - Thực hành thiết kế sơ đồ database quan hệ cơ bản cho một ứng dụng quản lý tác vụ.<br>- Định nghĩa bảng, khóa chính, khóa ngoại và quan hệ giữa các bảng. | 29/04/2026 | 29/04/2026 | Database Design |
+| Thứ 5 | - Khởi tạo một database instance RDS MySQL miễn phí trên AWS Console.<br>- Cấu hình Subnet Group và Security Group cho phép truy cập từ máy cục bộ. | 30/04/2026 | 30/04/2026 | AWS Practice Lab |
+| Thứ 6 | - Sử dụng công cụ DBeaver kết nối vào database RDS thông qua Endpoint.<br>- Thực hiện các truy vấn SQL cơ bản: Tạo bảng, chèn dữ liệu thử nghiệm, cập nhật và truy vấn. | 01/05/2026 | 01/05/2026 | SQL Guides |
+| Thứ 7 | - Họp nhóm đánh giá bài lab RDS.<br>- Xóa database RDS MySQL để bảo vệ hạn mức tài khoản Free Tier. | 02/05/2026 | 02/05/2026 | Tài liệu nhóm |
 
-* Hoàn tất module 1 và module 2 về AWS.
+### Kết quả đạt được tuần 2:
 
-* Hiểu rõ hơn về kiến trúc điện toán đám mây và dịch vụ database.
-
-* Thiết kế và tạo thành công cơ sở dữ liệu cơ bản.
-
-* Thực nghiệm thực tế thành công:
-
-  * Tạo bảng
-  * Cấu hình quan hệ
-  * Thêm dữ liệu mẫu
-  * Thao tác CRUD cơ bản
-
-* Cấu hình và xây dựng thành công demo kết nối database.
-
-* Có nền tảng tốt hơn để phát triển các hệ thống phức tạp hơn ở các tuần tiếp theo.
+* Phân biệt rõ ràng trường hợp sử dụng cơ sở dữ liệu SQL và NoSQL.
+* Thiết kế thành công sơ đồ quan hệ thực thể (ERD) cho ứng dụng quản lý.
+* Khởi tạo và kết nối thành công cơ sở dữ liệu RDS MySQL từ xa.

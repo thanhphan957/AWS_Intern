@@ -1,4 +1,4 @@
----
+﻿---
 title: "Week 10 Worklog"
 date: 2026-06-22
 weight: 10
@@ -8,19 +8,25 @@ pre: " <b> 1.10. </b> "
 
 ### Week 10 Objectives:
 
-* Complete the website user interface.
-* Improve the user experience (UI/UX).
-* Test and finalize the website before delivery.
+* Develop the responsive user interface (UI) to interact with APIs.
+* Implement user login and API requests from the frontend.
+* Deploy static assets to AWS S3 and CloudFront.
 
-### Tasks Completed:
+### Weekly Timeframe: **22/06/2026 – 28/06/2026**
 
-* Completed the user interface for the main pages of the website.
-* Optimized the layout, color scheme, typography, and spacing of UI components.
-* Fixed display issues and improved the alignment of interface elements.
-* Optimized page loading speed and overall website performance.
+### Tasks to be carried out this week:
 
-### Results Achieved:
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Monday | - Build HTML structure and CSS layouts using Bootstrap to display Todo list. | 22/06/2026 | 22/06/2026 | Front-end Design |
+| Tuesday | - Write JavaScript integrating Cognito SDK to handle authentication flows and token storage. | 23/06/2026 | 23/06/2026 | Cognito SDK |
+| Wednesday | - Implement Fetch API requests adding the JWT in the Authorization Header to consume Todo API Gateway endpoints. | 24/06/2026 | 25/06/2026 | Fetch API Guide |
+| Thursday | - Set up Amazon S3 bucket, configure static website hosting, and upload UI builds. | 25/06/2026 | 26/06/2026 | S3 Website |
+| Friday | - Create Amazon CloudFront distribution mapping S3 as Origin; configure ACM certificate for HTTPS. | 26/06/2026 | 27/06/2026 | AWS CloudFront |
+| Saturday | - Execute end-to-end user path testing: Register, login, insert task, toggle task, and logout. | 27/06/2026 | 27/06/2026 | Test Report |
 
-* Successfully completed the website interface based on the design requirements.
-* Improved the user experience through a cleaner layout and better visual presentation.
-* Finalized the website and prepared it for delivery.
+### Outcomes achieved in week 10:
+
+* Built responsive Front-end UI using HTML, CSS, JavaScript, and Bootstrap.
+* Integrated Cognito authentication SDK and managed JWT storage.
+* Successfully hosted the website on Amazon S3 distributed via Amazon CloudFront.

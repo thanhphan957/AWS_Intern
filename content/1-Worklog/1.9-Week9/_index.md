@@ -4,25 +4,29 @@ date: 2026-06-15
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
-----------------------
+---
+
 ### Week 9 Objectives:
 
-* Complete the CRUD functionality of the Todo API.
-* Test the APIs using Postman.
-* Improve error handling and optimize the source code.
+* Configure user authentication mechanism using AWS Cognito User Pools.
+* Secure API Gateway endpoints with Cognito Authorizers.
+* Integrate Amazon SES for automated transactional emails.
 
-### Tasks Completed:
+### Weekly Timeframe: **15/06/2026 – 21/06/2026**
 
-* Completed the Set up and Update operations for Todo items.
-* Implemented the APIs for retrieving the Todo list and Todo details.
-* Completed the Delete operation and improved input data validation.
-* Tested all APIs using Postman.
-* Refactored the source code and enhanced exception handling to improve system stability.
+### Tasks to be carried out this week:
 
-### Results Achieved:
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Monday | - Create AWS Cognito User Pool and App Client.<br>- Configure policies requiring strong passwords and email verification. | 15/06/2026 | 15/06/2026 | AWS Cognito Docs |
+| Tuesday | - Bind Cognito Authorizer to API Gateway resources.<br>- Confirm 401 Unauthorized response from API endpoints when JWT is missing. | 16/06/2026 | 16/06/2026 | API Gateway Auth |
+| Wednesday | - Study Amazon SES (Simple Email Service).<br>- Verify sender and recipient email addresses in the SES sandbox environment. | 17/06/2026 | 17/06/2026 | AWS SES Docs |
+| Thursday | - Modify Create Todo Lambda to invoke Amazon SES and send notifications on task generation. | 18/06/2026 | 18/06/2026 | AWS SES SDK |
+| Friday | - Restrict IAM Role policies linked to Lambdas to enforce minimal DynamoDB and SES permissions. | 19/06/2026 | 20/06/2026 | AWS IAM Role |
+| Saturday | - Merge dev changes to GitHub repository.<br>- Perform code walkthrough during weekly group review. | 20/06/2026 | 20/06/2026 | Team Docs |
 
-* Successfully completed all CRUD functionalities for the Todo system.
-* The APIs operated reliably and returned accurate data.
-* Successfully tested all APIs using Postman.
-* Improved error handling and enhanced code maintainability.
-* The system was ready for the optimization and deployment phase.
+### Outcomes achieved in week 9:
+
+* Configured AWS Cognito User Pool for user sign-up, sign-in, and JWT token issuance.
+* Secured API Gateway resources with a Cognito Authorizer.
+* Configured Amazon SES and sent email alerts when actions occur.

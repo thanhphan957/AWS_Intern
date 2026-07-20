@@ -1,29 +1,32 @@
 ﻿---
-
 title: "Week 3 Worklog"
 date: 2026-05-04
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
-----------------------
+---
 
 ### Week 3 Objectives:
 
-* Explore AWS database services in depth.
-* Study and understand AWS Bedrock and its real-world AI applications.
+* Explore Amazon DynamoDB NoSQL service.
+* Learn Generative AI concepts and Amazon Bedrock.
+* Compare SQL vs NoSQL database architectures.
 
-### Detailed tasks performed during the week:
+### Weekly Timeframe: **04/05/2026 – 10/05/2026**
 
-| Day | Task                                       | Start | End Date | Resources |
-| --- | ------------------------------------------ | ---------- | --------------- | ------------------ |
-| 2   | Learn Amazon RDS and DynamoDB services     | 04/05/2026 | 04/05/2026      | AWS Docs           |
-| 3   | Hands-on practice with creating databases on RDS         | 05/05/2026 | 05/05/2026      | AWS Hands-on practice with       |
-| 4   | Study AWS Bedrock and AI foundation models | 06/05/2026 | 06/05/2026      | AWS Docs           |
-| 5   | Hands-on practice with calling Bedrock APIs              | 07/05/2026 | 08/05/2026      | AWS Hands-on practice with       |
-| 6   | Review knowledge and create demo           | 09/05/2026 | 09/05/2026      | Internal Docs      |
+### Tasks to be carried out this week:
 
-### Week 3 Achievements:
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Monday | - Study NoSQL database concepts and theories.<br>- Research Amazon DynamoDB: Tables, Items, Attributes, and Primary Keys. | 04/05/2026 | 04/05/2026 | AWS DynamoDB Docs |
+| Tuesday | - Study DynamoDB primary keys details: Partition Key and Sort Key.<br>- Explore Global Secondary Indexes (GSIs) and Local Secondary Indexes (LSIs). | 05/05/2026 | 05/05/2026 | AWS DynamoDB GSI |
+| Wednesday | - Practice creating DynamoDB tables in the AWS console.<br>- Write AWS CLI commands to interact with data: PutItem, GetItem, Query, Scan. | 06/05/2026 | 06/05/2026 | AWS CLI DynamoDB |
+| Thursday | - Introduction to Generative AI and Large Language Models (LLMs).<br>- Study Amazon Bedrock service and supported foundation models. | 07/05/2026 | 07/05/2026 | AWS Bedrock Docs |
+| Friday | - Access Bedrock Playground to invoke models (Claude, Llama).<br>- Study basic prompt engineering techniques to get desired responses. | 08/05/2026 | 08/05/2026 | Bedrock Playground |
+| Saturday | - Present weekly accomplishments in team sync.<br>- Delete test DynamoDB tables and release Bedrock models. | 09/05/2026 | 09/05/2026 | Team Docs |
 
-* Better understanding of RDS and DynamoDB.
-* Successfully created databases on AWS.
-* Learned how AWS Bedrock works and AI integration basics.
+### Outcomes achieved in week 3:
+
+* Understood table design, Partition Keys, and Sort Keys in DynamoDB.
+* Understood Amazon Bedrock workflows and model invocations.
+* Evaluated appropriate use cases for SQL vs NoSQL in real-world scenarios.

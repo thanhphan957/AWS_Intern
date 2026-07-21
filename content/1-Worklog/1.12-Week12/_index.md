@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Week 12 Worklog"
-date: 2026-07-06
+date: 2026-07-03
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
@@ -8,25 +8,29 @@ pre: " <b> 1.12. </b> "
 
 ### Week 12 Objectives:
 
-* Perform load and performance tests on the Serverless API.
-* Finalize the official internship report and handover folders.
-* Clean up AWS resources to prevent billing issues.
+* Use Artillery CLI to conduct load testing on API Gateway endpoints and evaluate system responsiveness.
+* Collect, monitor, and analyze Latency, Response Time, and Error Rate metrics from Amazon CloudWatch for performance reporting.
+* Complete final internship report summarizing system architecture, deployment processes, and overall project outcomes.
+* Record demo video illustrating application interface, core features, and user authentication flow.
+* Verify, back up necessary documents, and clean up unused AWS resources including Cognito, SAM Stack, CloudFront, and S3 to avoid costs.
 
-### Weekly Timeframe: **06/07/2026 – 12/07/2026**
+### Weekly Timeframe: **03/07/2026 - 09/07/2026**
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Monday | - Use Artillery CLI tool to perform load testing on API Gateway endpoints. | 06/07/2026 | 06/07/2026 | Artillery Docs |
-| Tuesday | - Export Latency and Response Time graphs from CloudWatch metrics for the final report. | 07/07/2026 | 07/07/2026 | CloudWatch Logs |
-| Wednesday | - Compile and format the final Internship Report document and export to PDF. | 08/07/2026 | 09/07/2026 | Internship Report |
-| Thursday | - Record and edit a video demonstration showcasing frontend features and auth flows. | 09/07/2026 | 10/07/2026 | Video Demo |
-| Friday | - Delete Cognito pools, SAM stacks, CloudFront setups, and S3 assets to clean the account. | 10/07/2026 | 11/07/2026 | AWS Console |
-| Saturday | - Attend final internship exit interview with AWS Vietnam mentors and managers. | 11/07/2026 | 11/07/2026 | Team Docs |
+| Friday | - Conduct load testing on API Gateway endpoints using Artillery CLI.<br>- Evaluate auto-scaling scalability and peak concurrency limits of the Serverless backend. | 03/07/2026 | 03/07/2026 | Artillery Testing |
+| Saturday | - Collect, monitor, and analyze Latency, Response Time, and Error Rate metrics from Amazon CloudWatch for performance assessment and reporting. | 04/07/2026 | 04/07/2026 | Amazon CloudWatch |
+| Sunday / Monday | - Finalize Internship Final Report summarizing complete system architecture, IaC/CI-CD deployment procedures, and project deliverables. | 05/07/2026 | 06/07/2026 | Final Report |
+| Tuesday | - Record comprehensive application demo video showcasing the Todo List web UI, main CRUD functionality, and AWS Cognito authentication flow. | 07/07/2026 | 07/07/2026 | Video Demo |
+| Wednesday | - Verify and back up all critical technical documentation and codebases.<br>- Tear down and clean up unused AWS cloud resources including Cognito User Pools, SAM Stack, CloudFront Distribution, and S3 Bucket to eliminate recurring costs. | 08/07/2026 | 08/07/2026 | AWS Cleanup |
+| Thursday | - Final debrief meeting with enterprise mentor and project managers to present final internship deliverables and handover project assets. | 09/07/2026 | 09/07/2026 | Team Docs |
 
 ### Outcomes achieved in week 12:
 
-* Obtained positive load test results with Lambda auto-scaling smoothly.
-* Completed 100% of the final internship report with high quality.
-* Cleared all sandbox AWS resources to prevent charges.
+* Successfully conducted load testing via Artillery CLI; Serverless architecture scaled smoothly with low latency response times.
+* Captured CloudWatch performance metrics (Latency, Response Time, 0% Error Rate) for official reporting.
+* Completed 100% of the Graduation Internship Final Report.
+* Produced full application demonstration video covering authentication and core features.
+* Backed up all technical assets and safely deleted all active AWS resources to prevent lingering cloud costs.

@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Worklog Tuần 11"
-date: 2026-06-29
+date: 2026-06-26
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
@@ -8,25 +8,29 @@ pre: " <b> 1.11. </b> "
 
 ### Mục tiêu tuần 11:
 
-* Thiết lập pipeline tự động hóa CI/CD cho dự án bằng GitHub Actions.
-* Viết tài liệu hướng dẫn kỹ thuật chi tiết.
-* Tối ưu hóa hiệu suất và tính năng cơ sở dữ liệu.
+* Tìm hiểu quy trình tích hợp GitHub Actions và cấu hình Secrets cho CI/CD.
+* Xây dựng workflow GitHub Actions để kiểm tra mã, build và triển khai AWS SAM tự động.
+* Cấu hình DynamoDB TTL để tự động xóa các Todo đã hoàn thành sau thời gian quy định.
+* Hoàn thiện tài liệu kiến trúc hệ thống, API Specification và thiết kế cơ sở dữ liệu.
+* Viết README hướng dẫn cấu hình và triển khai môi trường phát triển.
+* Họp nhóm kiểm tra tài liệu, đánh giá tiến độ và dự toán chi phí AWS.
 
-### Khung thời gian tuần: **29/06/2026 – 05/07/2026**
+### Khung thời gian tuần: **26/06/2026 - 02/07/2026**
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | - Nghiên cứu dịch vụ GitHub Actions và cách viết file workflow tự động hóa CI/CD. | 29/06/2026 | 29/06/2026 | GitHub Actions |
-| Thứ 3 | - Viết tệp tin `.github/workflows/deploy.yml` tích hợp các tác vụ: Lint check, Build dự án và deploy lên AWS bằng SAM CLI. | 30/06/2026 | 30/06/2026 | CI/CD Workflows |
-| Thứ 4 | - Cấu hình tính năng Time-To-Live (TTL) cho DynamoDB để tự động dọn dẹp các Todo đã hoàn thành quá 30 ngày. | 01/07/2026 | 02/07/2026 | DynamoDB TTL |
-| Thứ 5 | - Viết tài liệu kỹ thuật chi tiết: Thiết kế kiến trúc, mô tả các API endpoints, cấu trúc bảng dữ liệu. | 02/07/2026 | 03/07/2026 | Tài liệu kỹ thuật |
-| Thứ 6 | - Biên soạn tài liệu Readme hướng dẫn cài đặt và sử dụng nhanh dự án dành cho lập trình viên khác. | 03/07/2026 | 04/07/2026 | Readme Docs |
-| Thứ 7 | - Họp nhóm tuần đánh giá chất lượng tài liệu và kiểm tra chi phí AWS Budgets. | 04/07/2026 | 04/07/2026 | Tài liệu nhóm |
+| Thứ 6 | - Nghiên cứu dịch vụ GitHub Actions và cách thiết lập quy trình tự động hóa CI/CD.<br>- Khai báo các thông số bảo mật GitHub Repository Secrets (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_REGION`). | 26/06/2026 | 26/06/2026 | GitHub Actions Docs |
+| Thứ 7 | - Xây dựng tập tin `.github/workflows/deploy.yml` tự động hóa luồng: Linting code, SAM Build và SAM Deploy khi push mã nguồn lên nhánh `main`. | 27/06/2026 | 27/06/2026 | CI/CD Pipeline |
+| Chủ nhật / Thứ 2 | - Cấu hình tính năng Time-To-Live (TTL) cho DynamoDB để tự động dọn dẹp các bản ghi Todo đã hoàn thành sau khoảng thời gian quy định (ví dụ 30 ngày). | 28/06/2026 | 29/06/2026 | DynamoDB TTL Guide |
+| Thứ 3 | - Chuẩn hóa và hoàn thiện bộ tài liệu kỹ thuật dự án: Sơ đồ kiến trúc hệ thống, tài liệu đặc tả API Endpoints và sơ đồ thiết kế bảng dữ liệu. | 30/06/2026 | 30/06/2026 | Technical Docs |
+| Thứ 4 | - Soạn thảo tập tin `README.md` chi tiết hướng dẫn các bước thiết lập môi trường phát triển, cài đặt phụ thuộc, chạy local và triển khai dự án. | 01/07/2026 | 01/07/2026 | Project README |
+| Thứ 5 | - Họp nhóm rà soát toàn bộ tài liệu, kiểm tra tiến độ tổng thể dự án và đánh giá lại chi phí thực tế trên AWS Budgets. | 02/07/2026 | 02/07/2026 | Tài liệu nhóm |
 
 ### Kết quả đạt được tuần 11:
 
-* Tự động hóa quá trình deploy hạ tầng và code Lambda khi push code lên GitHub.
-* Cấu hình tính năng TTL cho DynamoDB tự động dọn dẹp dữ liệu cũ.
-* Hoàn thiện tài liệu kiến trúc hệ thống và tài liệu bàn giao.
+* Thiết lập thành công Pipeline CI/CD tự động bằng GitHub Actions triển khai hạ tầng SAM lên AWS.
+* Kích hoạt tính năng TTL trên DynamoDB giúp tự động hóa việc dọn dẹp dữ liệu cũ.
+* Hoàn thiện bộ tài liệu kỹ thuật và file README hướng dẫn triển khai chuẩn mực.
+* Kiểm tra tiến độ và bảo đảm ngân sách chi phí AWS nằm trong ngưỡng cho phép.

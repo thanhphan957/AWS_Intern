@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Worklog Tuần 4"
-date: 2026-05-11
+date: 2026-05-08
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
@@ -8,25 +8,30 @@ pre: " <b> 1.4. </b> "
 
 ### Mục tiêu tuần 4:
 
-* Nghiên cứu AWS IAM (Identity and Access Management) và phân quyền bảo mật.
-* Học cấu trúc mạng Amazon VPC (Virtual Private Cloud).
-* Xây dựng kiến trúc mạng bảo mật trên môi trường đám mây.
+* Tìm hiểu AWS IAM gồm User, Group, Policy, Role và nguyên tắc Least Privilege trong quản lý quyền truy cập.
+* Xây dựng IAM Policy dạng JSON và tạo IAM Role cho phép EC2 truy cập Amazon S3.
+* Nghiên cứu kiến trúc Amazon VPC với Subnet, Route Table, Internet Gateway, NAT Gateway và Elastic IP.
+* Thực hành xây dựng VPC tùy chỉnh gồm Public Subnet và Private Subnet, cấu hình định tuyến mạng.
+* Triển khai EC2 Bastion Host trong Public Subnet và EC2 Server trong Private Subnet, thiết lập NAT Gateway để cập nhật hệ thống.
+* Dọn dẹp tài nguyên VPC, NAT Gateway, Elastic IP để tránh phát sinh chi phí.
 
-### Khung thời gian tuần: **11/05/2026 – 17/05/2026**
+### Khung thời gian tuần: **08/05/2026 - 14/05/2026**
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | - Tìm hiểu AWS IAM (Identity and Access Management).<br>- Phân biệt IAM User, Group, Policy (Chính sách), Role (Vai trò).<br>- Nghiên cứu nguyên tắc phân quyền tối thiểu (Least Privilege). | 11/05/2026 | 11/05/2026 | AWS IAM Docs |
-| Thứ 3 | - Thực hành tạo chính sách IAM tùy chỉnh dưới dạng JSON.<br>- Tạo IAM Role cho phép máy chủ EC2 chỉ có quyền đọc ghi tệp tin trên Amazon S3. | 12/05/2026 | 12/05/2026 | AWS IAM Policies |
-| Thứ 4 | - Học lý thuyết về Amazon VPC (Virtual Private Cloud).<br>- Tìm hiểu các thành phần: Subnet, Route Table, Internet Gateway, NAT Gateway. | 13/05/2026 | 13/05/2026 | AWS VPC Docs |
-| Thứ 5 | - Thực hành xây dựng một VPC tùy chỉnh gồm 1 Public Subnet và 1 Private Subnet.<br>- Tạo Internet Gateway và cấu hình Route Table điều tuyến traffic ra ngoài Internet. | 14/05/2026 | 14/05/2026 | AWS VPC Practice |
-| Thứ 6 | - Triển khai một máy chủ EC2 trong Public Subnet đóng vai trò làm Bastion Host.<br>- Triển khai một EC2 trong Private Subnet và cấu hình NAT Gateway để cho phép tải cập nhật phần mềm. | 15/05/2026 | 15/05/2026 | AWS VPC Bastion |
-| Thứ 7 | - Họp nhóm tuần với mentor.<br>- Thực hiện dọn dẹp các tài nguyên mạng (NAT Gateway, VPC, EC2) để tránh bị tính phí quá hạn Free Tier. | 16/05/2026 | 16/05/2026 | Tài liệu nhóm |
+| Thứ 6 | - Tìm hiểu AWS IAM bao gồm các khái niệm: User, Group, Policy, Role.<br>- Nghiên cứu nguyên tắc phân quyền tối thiểu (Least Privilege) trong quản lý truy cập bảo mật. | 08/05/2026 | 08/05/2026 | AWS IAM Docs |
+| Thứ 7 | - Thực hành viết IAM Policy dạng JSON.<br>- Khởi tạo IAM Role và gán cho máy chủ EC2 cho phép truy cập tài nguyên Amazon S3 an toàn. | 09/05/2026 | 09/05/2026 | AWS IAM Lab |
+| Chủ nhật / Thứ 2 | - Nghiên cứu chuyên sâu kiến trúc mạng Amazon VPC.<br>- Tìm hiểu chi tiết vai trò của Subnet, Route Table, Internet Gateway (IGW), NAT Gateway và Elastic IP. | 10/05/2026 | 11/05/2026 | AWS VPC Guide |
+| Thứ 3 | - Thực hành xây dựng VPC tùy chỉnh (Custom VPC).<br>- Tạo Public Subnet và Private Subnet, cấu hình các bảng định tuyến (Route Table) tương ứng. | 12/05/2026 | 12/05/2026 | AWS VPC Lab |
+| Thứ 4 | - Triển khai EC2 Bastion Host tại Public Subnet và máy chủ EC2 tại Private Subnet.<br>- Kết nối SSH an toàn vào Private EC2 thông qua Bastion Host.<br>- Cấu hình NAT Gateway cho Private Subnet để máy chủ ra Internet cập nhật phần mềm. | 13/05/2026 | 13/05/2026 | NAT Gateway Lab |
+| Thứ 5 | - Họp nhóm tổng kết tuần 4.<br>- Dọn dẹp và xóa toàn bộ tài nguyên VPC, NAT Gateway, Elastic IP, EC2 để tối ưu chi phí AWS. | 14/05/2026 | 14/05/2026 | Tài liệu nhóm |
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu sâu về IAM User, Group, Policy, Role và nguyên tắc cấp quyền tối thiểu.
-* Thiết kế và cấu hình thành công một VPC tùy chỉnh với Subnet công khai và bảo mật.
-* Kết nối thành công máy chủ trong subnet bảo mật thông qua Bastion Host.
+* Hiểu sâu quản trị phân quyền bằng AWS IAM và tuân thủ chặt chẽ nguyên tắc Least Privilege.
+* Tạo thành công IAM Policy JSON và phân quyền IAM Role cho EC2 truy cập S3.
+* Làm chủ kỹ năng xây dựng kiến trúc hạ tầng mạng VPC tùy chỉnh có Public và Private Subnet.
+* Triển khai mô hình kết nối an toàn qua Bastion Host và thiết lập NAT Gateway thành công.
+* Dọn dẹp sạch sẽ tài nguyên thử nghiệm sau khi hoàn thành lab.

@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Week 2 Worklog"
-date: 2026-04-27
+date: 2026-04-24
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
@@ -8,25 +8,28 @@ pre: " <b> 1.2. </b> "
 
 ### Week 2 Objectives:
 
-* Explore database services on AWS (SQL and NoSQL).
-* Design and build relational database models.
-* Practice provisioning Amazon RDS MySQL databases.
+* Explore RDBMS vs NoSQL; differentiate AWS RDS, DynamoDB, and Aurora services.
+* Study Amazon RDS architecture along with Multi-AZ, Read Replicas, Backup, and Restore features.
+* Design a relational database for a task management application with tables, primary keys, foreign keys, and relationships.
+* Launch an RDS MySQL instance, configure DB Subnet Group, and Security Group rules.
+* Connect to RDS via DBeaver and practice basic SQL statements (CREATE, INSERT, UPDATE, SELECT).
 
-### Weekly Timeframe: **27/04/2026 – 03/05/2026**
+### Weekly Timeframe: **24/04/2026 - 30/04/2026**
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Monday | - Study relational database (RDBMS) vs non-relational database (NoSQL) theories.<br>- Differentiate AWS database services: RDS, DynamoDB, Aurora. | 27/04/2026 | 27/04/2026 | AWS Database Docs |
-| Tuesday | - Learn details of Amazon RDS architecture.<br>- Study core concepts: Multi-AZ deployments, Read Replicas, automated Backups, and Restores. | 28/04/2026 | 28/04/2026 | AWS RDS Docs |
-| Wednesday | - Practice designing a basic relational database schema for a task management application.<br>- Define tables, primary keys, foreign keys, and relationships. | 29/04/2026 | 29/04/2026 | Database Design |
-| Thursday | - Launch a free-tier RDS MySQL database instance on AWS Console.<br>- Configure DB Subnet Groups and Security Groups to allow incoming traffic. | 30/04/2026 | 30/04/2026 | AWS Practice Lab |
-| Friday | - Use DBeaver client to connect to the RDS database using the DB Endpoint.<br>- Run basic SQL CRUD commands: CREATE TABLE, INSERT, UPDATE, SELECT. | 01/05/2026 | 01/05/2026 | SQL Guides |
-| Saturday | - Review RDS lab performance in weekly team meeting.<br>- Delete the RDS MySQL instance to prevent Free Tier budget overrun. | 02/05/2026 | 02/05/2026 | Team Docs |
+| Friday | - Study overview of RDBMS and NoSQL databases.<br>- Compare and differentiate AWS database services: AWS RDS, DynamoDB, and Aurora. | 24/04/2026 | 24/04/2026 | AWS Database Docs |
+| Saturday | - Research Amazon RDS architecture.<br>- Study Multi-AZ Deployments, Read Replicas, Automated Backups, and Snapshot Restores. | 25/04/2026 | 25/04/2026 | AWS RDS Guide |
+| Sunday / Monday | - Design a relational database model for a Task Management application.<br>- Define table schemas, Primary Keys, Foreign Keys, and entity relationships. | 26/04/2026 | 27/04/2026 | Database Design |
+| Tuesday | - Launch an RDS MySQL instance on AWS Management Console.<br>- Configure DB Subnet Group and set up Security Group inbound rules. | 28/04/2026 | 28/04/2026 | AWS RDS Lab |
+| Wednesday | - Connect to RDS MySQL remotely using DBeaver GUI client.<br>- Execute foundational SQL commands: CREATE TABLE, INSERT INTO, UPDATE, SELECT. | 29/04/2026 | 29/04/2026 | DBeaver & SQL |
+| Thursday | - Weekly team sync on Week 2 achievements.<br>- Delete/stop test RDS instances to avoid unnecessary cloud costs. | 30/04/2026 | 30/04/2026 | Team Docs |
 
 ### Outcomes achieved in week 2:
 
-* Understood differences between SQL and NoSQL database models.
-* Successfully designed Entity-Relationship Diagram (ERD) for a task management app.
-* Initialized and connected to RDS MySQL database successfully.
+* Understood the key differences between RDBMS and NoSQL and the usage of RDS, DynamoDB, and Aurora.
+* Mastered Amazon RDS architecture, Multi-AZ high availability, and Read Replica scaling options.
+* Successfully designed relational database schema for task management application.
+* Provisioned RDS MySQL instance, connected via DBeaver, and ran core SQL queries successfully.

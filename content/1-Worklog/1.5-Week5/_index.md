@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Week 5 Worklog"
-date: 2026-05-18
+date: 2026-05-15
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
@@ -8,25 +8,28 @@ pre: " <b> 1.5. </b> "
 
 ### Week 5 Objectives:
 
-* Learn cost control mechanisms on AWS cloud.
-* Practice configuring AWS Budgets and cost alarms.
-* Review foundational modules to conclude the training phase.
+* Learn AWS cost management tools including Billing Dashboard, Cost Explorer, and AWS Pricing Calculator.
+* Build a cost estimation sheet for web application deployment using AWS Calculator.
+* Study AWS Budgets and learn how to configure actual vs forecasted cost alert thresholds.
+* Create a test budget and configure email notifications when cost thresholds are reached.
+* Check AWS billing info and consolidate knowledge from previous weeks to prepare for project execution.
 
-### Weekly Timeframe: **18/05/2026 – 24/05/2026**
+### Weekly Timeframe: **15/05/2026 - 21/05/2026**
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Monday | - Learn AWS billing tools: AWS Billing Dashboard and Cost Explorer.<br>- Study cost calculation principles using AWS Pricing Calculator. | 18/05/2026 | 18/05/2026 | AWS Billing Docs |
-| Tuesday | - Build a draft cost estimation sheet for a standard web application deployment using AWS Calculator. | 19/05/2026 | 19/05/2026 | AWS Calculator |
-| Wednesday | - Study AWS Budgets features.<br>- Learn how to define threshold alerts (Actual vs Forecasted costs). | 20/05/2026 | 20/05/2026 | AWS Budgets Docs |
-| Thursday | - Create a test budget of $10 inside AWS Budgets.<br>- Configure budget alerts to send automatic emails when actual costs hit 80% threshold. | 21/05/2026 | 21/05/2026 | AWS Budgets Lab |
-| Friday | - Verify billing statistics inside the Billing console.<br>- Review all notes from Weeks 1-5 to prepare for project implementation. | 22/05/2026 | 23/05/2026 | Learning Materials |
-| Saturday | - Weekly meeting, align with mentor on the official project topic and roadmap. | 23/05/2026 | 23/05/2026 | Team Docs |
+| Friday | - Learn AWS billing management tools: AWS Billing Dashboard and Cost Explorer.<br>- Study cost calculation methodologies using AWS Pricing Calculator. | 15/05/2026 | 15/05/2026 | AWS Billing Docs |
+| Saturday | - Formulate a cost estimation sheet for a standard web app deployment using AWS Calculator.<br>- Optimize infrastructure specs based on target budget. | 16/05/2026 | 16/05/2026 | AWS Calculator |
+| Sunday / Monday | - Study AWS Budgets service in detail.<br>- Learn alert triggers for Actual costs vs Forecasted costs percentage thresholds. | 17/05/2026 | 18/05/2026 | AWS Budgets Docs |
+| Tuesday | - Create a test budget inside AWS Budgets.<br>- Configure automated email alerts when actual or projected costs hit defined limit thresholds (80% & 100%). | 19/05/2026 | 19/05/2026 | AWS Budgets Lab |
+| Wednesday | - Verify billing details and review analytics inside Billing Dashboard.<br>- Consolidate and review all technical topics from Weeks 1 through 5 to prepare for upcoming project work. | 20/05/2026 | 20/05/2026 | Learning Materials |
+| Thursday | - Weekly team meeting on Week 5 outcomes.<br>- Align project transition roadmap with internship mentor. | 21/05/2026 | 21/05/2026 | Team Docs |
 
 ### Outcomes achieved in week 5:
 
-* Mastered cost estimations using AWS Pricing Calculator.
-* Successfully configured AWS Budgets with email alerts when usage exceeds thresholds.
-* Completed foundational reviews and prepared for the upcoming practical project.
+* Mastered AWS Pricing Calculator for accurate cloud architecture cost estimations.
+* Successfully set up AWS Budgets with automated email triggers on spending thresholds.
+* Learned cost monitoring techniques via AWS Billing Dashboard and Cost Explorer.
+* Completed comprehensive review of core AWS services (EC2, RDS, DynamoDB, VPC, IAM, Cost), ready for hands-on project implementation.

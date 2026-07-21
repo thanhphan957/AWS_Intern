@@ -8,51 +8,57 @@ pre: " <b> 6. </b> "
 
 ## Internship Self-Assessment
 
-During my internship at **Amazon Web Services Vietnam Co., Ltd.**, I had the opportunity to work in a professional environment and participate in tasks related to the field of Information Technology. This internship allowed me to apply the knowledge acquired at university to real-world situations while gaining valuable practical experience.
+During my 12-week internship at **Amazon Web Services Vietnam Co., Ltd.**, I had the privilege of working in a world-class technology environment, directly participating in Serverless application development, and acquiring advanced cloud architecture concepts.
 
-In addition to improving my technical knowledge, I also developed essential soft skills, including planning, time management, effective communication with my supervisor, and the ability to receive and apply constructive feedback. These experiences gave me a clearer understanding of workplace expectations and the competencies required for a future career in the IT industry.
+This journey enabled me to bridge the gap between academic theory and industry practice, equipping me with structured problem-solving skills, project milestone management, and a professional engineering mindset.
 
-Based on my overall internship experience, I evaluate my performance according to the following criteria:
+Below is my detailed self-assessment across core competency criteria:
 
 | No. | Criteria | Description | Excellent | Good | Average |
 |----:|----------|-------------|:---------:|:----:|:-------:|
-| 1 | **Technical Knowledge** | Applying academic knowledge to practical tasks | ✅ | ☐ | ☐ |
-| 2 | **Learning Ability** | Quickly acquiring new technologies, knowledge, and processes | ✅ | ☐ | ☐ |
-| 3 | **Self-Learning Skills** | Conducting independent research and solving problems | ✅ | ☐ | ☐ |
-| 4 | **Responsibility** | Completing assigned tasks on time with quality | ✅ | ☐ | ☐ |
-| 5 | **Proactiveness** | Taking initiative in accepting tasks and proposing solutions | ✅ | ☐ | ☐ |
-| 6 | **Teamwork** | Collaborating effectively with team members | ✅ | ☐ | ☐ |
-| 7 | **Communication Skills** | Communicating ideas and work progress clearly and professionally | ☐ | ✅ | ☐ |
-| 8 | **Discipline and Professionalism** | Following company regulations and maintaining a professional attitude | ✅ | ☐ | ☐ |
-| 9 | **Adaptability** | Adjusting quickly to a new working environment | ✅ | ☐ | ☐ |
-| 10 | **Problem-Solving Skills** | Identifying issues and proposing appropriate solutions | ☐ | ✅ | ☐ |
-| 11 | **Time Management** | Organizing work efficiently and meeting deadlines | ✅ | ☐ | ☐ |
-| 12 | **Work Quality** | Delivering accurate, reliable, and high-quality results | ✅ | ☐ | ☐ |
-| 13 | **Receptiveness to Feedback** | Accepting suggestions and continuously improving | ✅ | ☐ | ☐ |
-| 14 | **Creativity** | Proposing innovative ideas or better approaches | ☐ | ✅ | ☐ |
-| 15 | **Project Contribution** | Contributing effectively to assigned tasks and supporting the team | ✅ | ☐ | ☐ |
-| 16 | **Professional Ethics** | Demonstrating honesty, respect, and confidentiality | ✅ | ☐ | ☐ |
-| 17 | **Ability to Work Under Pressure** | Maintaining productivity under tight deadlines | ☐ | ✅ | ☐ |
-| 18 | **Overall Performance** | General evaluation of the entire internship period | ✅ | ☐ | ☐ |
+| 1 | **Technical Knowledge** | Mastered core AWS services (EC2, RDS, DynamoDB, Lambda, API Gateway, SAM) | ✅ | ☐ | ☐ |
+| 2 | **Learning Ability** | Quickly adopted and applied modern cloud frameworks | ✅ | ☐ | ☐ |
+| 3 | **Self-Research Skills** | Independently studied official docs and resolved technical issues | ✅ | ☐ | ☐ |
+| 4 | **Responsibility** | Delivered all assigned project milestones on schedule | ✅ | ☐ | ☐ |
+| 5 | **Proactiveness** | Proposed architecture optimizations and cloud cost controls | ✅ | ☐ | ☐ |
+| 6 | **Teamwork** | Collaborated effectively using structured Git Flow practices | ✅ | ☐ | ☐ |
+| 7 | **Communication & Reporting** | Articulated technical progress and solutions clearly to mentor | ☐ | ✅ | ☐ |
+| 8 | **Discipline & Ethics** | Complied strictly with security policies and company standards | ✅ | ☐ | ☐ |
+| 9 | **Adaptability** | Seamlessly integrated into professional enterprise workflows | ✅ | ☐ | ☐ |
+| 10 | **Troubleshooting & Analysis** | Leveraged CloudWatch Logs to diagnose and resolve errors | ☐ | ✅ | ☐ |
+| 11 | **Time Management** | Balanced theoretical learning with hands-on coding milestones | ✅ | ☐ | ☐ |
+| 12 | **Work Quality** | Produced reliable code meeting performance testing benchmarks | ✅ | ☐ | ☐ |
+| 13 | **Receptiveness to Feedback** | Actively incorporated mentor guidance to improve code quality | ✅ | ☐ | ☐ |
+| 14 | **Creativity & AI Usage** | Leveraged AI tools (Amazon Q, GitHub Copilot) to boost efficiency | ☐ | ✅ | ☐ |
+| 15 | **Project Contribution** | Built complete Lambda CRUD functions and CI/CD pipelines | ✅ | ☐ | ☐ |
+| 16 | **Professional Ethics** | Respected data privacy, credentials security, and confidentiality | ✅ | ☐ | ☐ |
+| 17 | **Ability Under Pressure** | Maintained high productivity during sprint deadlines | ☐ | ✅ | ☐ |
+| 18 | **Overall Evaluation** | Comprehensive assessment of the 12-week internship period | ✅ | ☐ | ☐ |
 
-## Strengths
+---
 
-- Demonstrated a strong willingness to learn and continuously explore new technologies.
-- Maintained a high level of responsibility and completed assigned tasks on schedule.
-- Worked effectively both independently and collaboratively within a team.
-- Actively received feedback from supervisors and used it to improve work performance.
-- Maintained a positive attitude, professional behavior, and compliance with company regulations.
+## 🌟 Key Strengths
 
-## Areas for Improvement
+- **Fast Learning & Technology Mastery:** Proactively researched and implemented modern tools including AWS SAM CLI, DynamoDB Local, Docker, and GitHub Actions CI/CD.
+- **High Responsibility & Discipline:** Consistently met deadlines, adhered to corporate security protocols, and maintained reliable progress reporting.
+- **Cloud Architecture & Cost Consciousness:** Applied cost optimization techniques such as On-Demand billing, DynamoDB TTL, and AWS Budgets monitoring.
+- **Effective Team Collaboration:** Practiced Git Flow, conducted code reviews, and integrated feature branches smoothly with team members.
+- **Growth Mindset:** Actively sought constructive feedback from mentor to continuously refine code quality and architectural designs.
 
-- Further improve communication and presentation skills in both daily interactions and professional discussions.
-- Enhance analytical thinking and problem-solving abilities when dealing with complex technical issues.
-- Gain more hands-on experience in software design, development, and deployment.
-- Improve English reading comprehension, particularly for technical documentation.
-- Write cleaner, more maintainable, and better-optimized code.
-- Learn more about professional software development methodologies such as Agile, Scrum, Git Flow, and CI/CD.
-- Strengthen time management skills when handling multiple tasks simultaneously.
+---
 
-## Conclusion
+## 🎯 Future Areas for Improvement
 
-The internship was a valuable opportunity that enabled me to transform academic knowledge into practical experience while gaining a deeper understanding of the professional working environment. Although there are still areas that require improvement, I believe that through continuous learning, dedication, and self-improvement, I will become a more competent software developer and be well prepared for future career opportunities.
+- **Enhance Technical Communication:** Further refine presentation skills for technical solution walkthroughs.
+- **Deepen System Architecture Expertise:** Study complex microservices patterns, advanced event-driven designs, and distributed caching strategies.
+- **Strengthen Technical English:** Read official AWS whitepapers and documentation to stay updated on emerging cloud services.
+- **Code Standardization & Refactoring:** Enforce Clean Code principles, design patterns, and comprehensive unit testing coverage.
+- **Expand DevOps & Security (DevSecOps) Knowledge:** Explore Kubernetes (EKS), Terraform / AWS CDK, and automated security scanners in CI/CD pipelines.
+
+---
+
+## 💡 Conclusion
+
+The 12-week internship at AWS Vietnam served as a vital stepping stone in my career, transforming university concepts into practical engineering capabilities. Developing the Serverless Todo API allowed me to master cloud infrastructure, system design, and professional engineering workflows.
+
+I express my gratitude to my mentor and team members for their invaluable support. This foundation will drive my goal of becoming a skilled Cloud / DevOps Engineer in the future.

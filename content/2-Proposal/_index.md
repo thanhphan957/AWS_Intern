@@ -1,8 +1,8 @@
 ---
 title: "Project Proposal"
-weight: 1
+weight: 2
 chapter: false
-pre: " <b> 2 </b> "
+pre: " <b> 2. </b> "
 ---
 
 # Serverless Todo API - Project Proposal
@@ -12,15 +12,17 @@ pre: " <b> 2 </b> "
 ## 1. Project Overview
 
 **Project Name**: Serverless Todo Application API  
-**Duration**: 12 weeks (April 17 - July 19, 2026)  
-**Intern**: Nguyen Chi Thanh  
-**University**: HUTECH (Ho Chi Minh City University of Technology)
+**Duration**: 12 weeks (April 17 - July 09, 2026)  
+**Intern**: Phan Nguyen Nhu Thanh  
 
 ### What is This Project?
 
 A modern, scalable Todo management system built entirely on AWS serverless services. Users can create, read, update, and delete todo items through a REST API, perfect for learning AWS architecture and best practices.
+
 ![Serverless Architecture](KienTrucDuAn.jpg)
-![alt text](<DynamoDb1.jpg>) ![alt text](<GiaodienEmail_WebHook.jpg>) ![alt text](<NhapEmail_WebHook.jpg>) ![alt text](<DynamoDB.jpg>)
+![DynamoDB Table](DynamoDb1.jpg)
+![Email Notification](GiaodienEmail_WebHook.jpg)
+![Web Interface](GiaoDien.jpg)
 
 ---
 
@@ -44,25 +46,24 @@ Build a serverless solution that:
 ## 3. Project Objectives
 
 ### Primary Objectives
-1. **Learn AWS Services**: Hands-on experience with Lambda, DynamoDB, API Gateway
-2. **Build Production-Ready Code**: Write clean, maintainable Python code
-3. **Understand Serverless Architecture**: Know when and how to use serverless
-4. **Implement Security**: Apply IAM least privilege principles
-5. **Monitor & Troubleshoot**: Use CloudWatch for observability
+1. **Learn AWS Services**: Hands-on experience with Lambda, DynamoDB, API Gateway, Cognito, SES.
+2. **Build Production-Ready Code**: Write clean, maintainable Python/Node.js code.
+3. **Understand Serverless Architecture**: Know when and how to use serverless effectively.
+4. **Implement Security**: Apply IAM least privilege principles and JWT auth.
+5. **Monitor & Troubleshoot**: Use CloudWatch for full system observability.
 
 ### Measurable Outcomes
-- Complete CRUD API with all endpoints working
-- Zero errors in 100+ test requests
-- Sub-100ms average response time
-- Documentation for full deployment
-- Cost < $1 USD for 3-hour workshop
+- Complete CRUD API with all endpoints working smoothly.
+- Zero errors in 100+ test requests.
+- Sub-100ms average response time.
+- Documentation for full deployment.
+- Optimized cost within AWS Free Tier limit.
 
 ---
 
 ## 4. Solution Architecture
 
 ```
-
                           [Clients]
                               ↓
                    [API Gateway]
@@ -71,7 +72,7 @@ Build a serverless solution that:
         ┌─────────────────────┼─────────────────────┐
         ↓                      ↓                      ↓
   [CreateTodo]          [GetTodos]          [UpdateTodo/Delete]
-  (Lambda Python)       (Lambda Python)     (Lambda Python)
+  (Lambda Function)     (Lambda Function)   (Lambda Function)
         ↓                      ↓                      ↓
         └─────────────────────┼─────────────────────┘
                               ↓
@@ -82,137 +83,50 @@ Build a serverless solution that:
                        (Monitoring)
 ```
 
-### AWS Services Used (3 Core Services)
+### AWS Services Used
 
 | Service | Purpose | Why Choose |
 |---------|---------|-----------|
 | **API Gateway** | REST API endpoints | Managed, scalable, easy integration |
-| **Lambda** | Business logic execution | Pay-per-use, auto-scaling, fast |
+| **AWS Lambda** | Business logic execution | Pay-per-use, auto-scaling, fast |
 | **DynamoDB** | Data persistence | Fully managed, infinite scalability |
-
-### IAM Security
-- Least Privilege principle: Each Lambda has minimal permissions
-- Separate roles for each function
-- No hardcoded credentials
 
 ---
 
 ## 5. Project Timeline
 
-### Phase 1: Setup (Week 1-2) ✅
-- AWS account and CLI configuration
-- DynamoDB table creation
-- Initial IAM role setup
+### Phase 1: Setup & Foundations (Weeks 1-5) ✅
+- AWS account setup, CLI, IAM Roles, and custom VPC.
+- Initial test database creation (RDS & DynamoDB).
 
-### Phase 2: Development (Week 3-10) ✅
-- Lambda functions (Create/Read/Update/Delete)
-- API Gateway configuration
-- Integration testing
-- CloudWatch monitoring
+### Phase 2: Serverless API Development (Weeks 6-10) ✅
+- Lambda function development (Create/Read/Update/Delete Todo).
+- API Gateway configuration, Cognito Authorizer & SES Notifications.
+- Static Frontend UI integration with AWS S3 & CloudFront.
 
-### Phase 3: Documentation & Deployment (Week 11-12) ✅
-- Complete documentation in 2 languages
-- Infrastructure as Code (CloudFormation)
-- Final testing and cleanup
+### Phase 3: Automation & Reporting (Weeks 11-12) ✅
+- CI/CD Pipeline construction with GitHub Actions & AWS SAM.
+- Load testing with Artillery & graduation internship final report completion.
 
 ---
 
-## 6. Technical Requirements
-
-### Web API Specification
-
-#### POST /todos - Create Todo
-```
-Request: {
-  "title": "string (required)",
-  "description": "string",
-  "status": "pending|completed"
-}
-Response: 201 {
-  "todoId": "uuid",
-  "createdAt": timestamp
-}
-```
-
-#### GET /todos - Get All
-```
-Response: 200 [
-  { "todoId": "...", ... }
-]
-```
-
-#### PUT /todos/{id} - Update
-```
-Request: { "status": "completed" }
-Response: 200 { ...updated item }
-```
-
-#### DELETE /todos/{id} - Delete
-```
-Response: 204 (No Content)
-```
-
----
-
-## 7. Success Criteria
+## 6. Success Criteria
 
 ✅ **Functional Requirements**
-- All 4 CRUD endpoints working
-- 100% test pass rate
-- < 100ms average response time
+- All 4 CRUD endpoints working seamlessly.
+- 100% test pass rate.
+- < 100ms average response time.
 
 ✅ **Non-Functional Requirements**
-- Zero unhandled errors
-- Cost < $1 USD
-- CloudWatch logs for debugging
+- IAM Least Privilege access enforcement.
+- User authentication via JWT Token via Cognito.
+- CloudWatch logs for system debugging & observability.
 
-✅ **Documentation**
-- Bilingual (Vietnamese/English)
-- Step-by-step deployment guide
-- Architecture diagrams
-
----
-
-## 8. Risks & Mitigation
-
-| Risk | Probability | Impact | Mitigation |
-|------|-------------|--------|-----------|
-| Lambda timeout | Low | High | Optimize code, increase timeout |
-| DynamoDB throttling | Low | Medium | Use on-demand billing mode |
-| API errors | Medium | Medium | Comprehensive error handling |
-| Learning curve | Medium | High | Reference AWS documentation |
+✅ **Documentation & Budget**
+- Bilingual (Vietnamese/English) documentation.
+- Step-by-step deployment guide.
+- Cost < $1 USD.
 
 ---
 
-## 9. Benefits & Learning Outcomes
-
-### For Professional Growth
-- Industry-standard serverless architecture
-- AWS certification preparation
-- Portfolio-worthy project
-- Cloud-native best practices
-
-### For Organization
-- Low-cost, maintainable infrastructure
-- Scalable to millions of users
-- Built-in monitoring and logging
-- Easy to modify or extend
-
----
-
-## 10. Budget & Resource Allocation
-
-### AWS Resources
-- API Gateway: Free Tier eligible
-- Lambda: Free Tier (1M invocations)
-- DynamoDB: Free Tier (25 GB)
-- **Estimated Cost**: < $1 USD
-
-### Development Resources
-- Time: 40 hours (3 hours/week × 12 weeks)
-- Tools: VS Code, AWS CLI, Postman
-- Documentation: Markdown, Diagrams
-
----
-
-**Proposal Status**: ✅ Approved for Implementation
+**Proposal Status**: ✅ Approved & Implemented

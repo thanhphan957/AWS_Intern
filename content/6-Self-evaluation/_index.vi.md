@@ -5,6 +5,7 @@ weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
+
 ## Tự đánh giá quá trình thực tập
 
 Trong thời gian thực tập tại **Amazon Web Services Vietnam Co., Ltd.**, tôi đã có cơ hội tiếp cận với môi trường làm việc chuyên nghiệp và được tham gia vào các công việc liên quan đến chuyên ngành Công nghệ thông tin. Đây là khoảng thời gian giúp tôi vận dụng những kiến thức đã học trên giảng đường vào thực tế, đồng thời tích lũy thêm nhiều kinh nghiệm trong quá trình làm việc.

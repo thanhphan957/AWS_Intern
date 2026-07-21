@@ -14,26 +14,20 @@ In addition to improving my technical knowledge, I also developed essential soft
 
 Based on my overall internship experience, I evaluate my performance according to the following criteria:
 
-| No. | Criteria | Description | Excellent | Good | Average |
-|----:|----------|-------------|:---------:|:----:|:-------:|
-| 1 | **Technical Knowledge** | Mastered core AWS services (EC2, RDS, DynamoDB, Lambda, API Gateway, SAM) | ✅ | ☐ | ☐ |
-| 2 | **Learning Ability** | Quickly adopted and applied modern cloud frameworks | ✅ | ☐ | ☐ |
-| 3 | **Self-Research Skills** | Independently studied official docs and resolved technical issues | ✅ | ☐ | ☐ |
-| 4 | **Responsibility** | Delivered all assigned project milestones on schedule | ✅ | ☐ | ☐ |
-| 5 | **Proactiveness** | Proposed architecture optimizations and cloud cost controls | ✅ | ☐ | ☐ |
-| 6 | **Teamwork** | Collaborated effectively using structured Git Flow practices | ✅ | ☐ | ☐ |
-| 7 | **Communication & Reporting** | Articulated technical progress and solutions clearly to mentor | ☐ | ✅ | ☐ |
-| 8 | **Discipline & Ethics** | Complied strictly with security policies and company standards | ✅ | ☐ | ☐ |
-| 9 | **Adaptability** | Seamlessly integrated into professional enterprise workflows | ✅ | ☐ | ☐ |
-| 10 | **Troubleshooting & Analysis** | Leveraged CloudWatch Logs to diagnose and resolve errors | ☐ | ✅ | ☐ |
-| 11 | **Time Management** | Balanced theoretical learning with hands-on coding milestones | ✅ | ☐ | ☐ |
-| 12 | **Work Quality** | Produced reliable code meeting performance testing benchmarks | ✅ | ☐ | ☐ |
-| 13 | **Receptiveness to Feedback** | Actively incorporated mentor guidance to improve code quality | ✅ | ☐ | ☐ |
-| 14 | **Creativity & AI Usage** | Leveraged AI tools (Amazon Q, GitHub Copilot) to boost efficiency | ☐ | ✅ | ☐ |
-| 15 | **Project Contribution** | Built complete Lambda CRUD functions and CI/CD pipelines | ✅ | ☐ | ☐ |
-| 16 | **Professional Ethics** | Respected data privacy, credentials security, and confidentiality | ✅ | ☐ | ☐ |
-| 17 | **Ability Under Pressure** | Maintained high productivity during sprint deadlines | ☐ | ✅ | ☐ |
-| 18 | **Overall Evaluation** | Comprehensive assessment of the 12-week internship period | ✅ | ☐ | ☐ |
+| No. | Criteria | Description | Good | Fair | Average |
+|----:|----------|-------------|:----:|:----:|:-------:|
+| 1 | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅ | ☐ | ☐ |
+| 2 | **Ability to learn** | Ability to absorb new knowledge and learn quickly | ☐ | ✅ | ☐ |
+| 3 | **Proactiveness** | Taking initiative, seeking out tasks without waiting for instructions | ✅ | ☐ | ☐ |
+| 4 | **Sense of responsibility** | Completing tasks on time and ensuring quality | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Adhering to schedules, rules, and work processes | ☐ | ☐ | ✅ |
+| 6 | **Progressive mindset** | Willingness to receive feedback and improve oneself | ☐ | ✅ | ☐ |
+| 7 | **Communication** | Presenting ideas and reporting work clearly | ☐ | ✅ | ☐ |
+| 8 | **Teamwork** | Working effectively with colleagues and participating in teams | ✅ | ☐ | ☐ |
+| 9 | **Professional conduct** | Respecting colleagues, partners, and the work environment | ✅ | ☐ | ☐ |
+| 10 | **Problem-solving skills** | Identifying problems, proposing solutions, and showing creativity | ☐ | ✅ | ☐ |
+| 11 | **Contribution to project/team** | Work effectiveness, innovative ideas, recognition from the team | ✅ | ☐ | ☐ |
+| 12 | **Overall** | General evaluation of the entire internship period | ✅ | ☐ | ☐ |
 
 ---
 

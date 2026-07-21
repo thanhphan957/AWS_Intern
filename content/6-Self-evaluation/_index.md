@@ -16,18 +16,18 @@ Based on my overall internship experience, I evaluate my performance according t
 
 | No. | Criteria | Description | Good | Fair | Average |
 |----:|----------|-------------|:----:|:----:|:-------:|
-| 1 | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅ | ☐ | ☐ |
-| 2 | **Ability to learn** | Ability to absorb new knowledge and learn quickly | ☐ | ✅ | ☐ |
-| 3 | **Proactiveness** | Taking initiative, seeking out tasks without waiting for instructions | ✅ | ☐ | ☐ |
-| 4 | **Sense of responsibility** | Completing tasks on time and ensuring quality | ✅ | ☐ | ☐ |
-| 5 | **Discipline** | Adhering to schedules, rules, and work processes | ☐ | ☐ | ✅ |
-| 6 | **Progressive mindset** | Willingness to receive feedback and improve oneself | ☐ | ✅ | ☐ |
-| 7 | **Communication** | Presenting ideas and reporting work clearly | ☐ | ✅ | ☐ |
-| 8 | **Teamwork** | Working effectively with colleagues and participating in teams | ✅ | ☐ | ☐ |
-| 9 | **Professional conduct** | Respecting colleagues, partners, and the work environment | ✅ | ☐ | ☐ |
-| 10 | **Problem-solving skills** | Identifying problems, proposing solutions, and showing creativity | ☐ | ✅ | ☐ |
-| 11 | **Contribution to project/team** | Work effectiveness, innovative ideas, recognition from the team | ✅ | ☐ | ☐ |
-| 12 | **Overall** | General evaluation of the entire internship period | ✅ | ☐ | ☐ |
+| 1 | **Professional knowledge & skills** | Mastering AWS services, applying theory into practice, proficiency with tools, high work quality | ✅ | ☐ | ☐ |
+| 2 | **Ability to learn** | Quickly absorbing new technologies, Serverless concepts, and cloud frameworks | ☐ | ✅ | ☐ |
+| 3 | **Proactiveness** | Taking initiative, seeking out tasks, and resolving issues independently | ✅ | ☐ | ☐ |
+| 4 | **Sense of responsibility** | Completing assigned tasks on schedule with high reliability | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Strictly adhering to project timelines, corporate rules, and security policies | ✅ | ☐ | ☐ |
+| 6 | **Progressive mindset** | Receptive to mentor feedback and continuously self-improving | ☐ | ✅ | ☐ |
+| 7 | **Communication** | Clearly presenting technical ideas and reporting progress effectively | ☐ | ✅ | ☐ |
+| 8 | **Teamwork** | Collaborating smoothly with colleagues using Git Flow and code reviews | ✅ | ☐ | ☐ |
+| 9 | **Professional conduct** | Maintaining professionalism and respect for colleagues and company environment | ✅ | ☐ | ☐ |
+| 10 | **Problem-solving skills** | Analyzing CloudWatch logs, proposing creative solutions, and troubleshooting issues | ☐ | ✅ | ☐ |
+| 11 | **Contribution to project/team** | High work effectiveness, valuable project output, and team recognition | ✅ | ☐ | ☐ |
+| 12 | **Overall** | Comprehensive evaluation of performance and growth during internship | ✅ | ☐ | ☐ |
 
 ---
 

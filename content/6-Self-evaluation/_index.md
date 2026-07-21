@@ -8,32 +8,32 @@ pre: " <b> 6. </b> "
 
 ## Internship Self-Assessment
 
-During my 12-week internship at Amazon Web Services Vietnam Co., Ltd., I had the privilege of working in a world-class technology environment, directly participating in Serverless application development, and acquiring advanced cloud architecture concepts.
+The 12-week internship journey at **Amazon Web Services Vietnam Co., Ltd.** has been a pivotal and deeply meaningful milestone in my growth, empowering me with significant advancements in both technical acumen and professional engineering mindset. Being immersed directly in AWS's global-standard environment not only allowed me to translate academic knowledge into hands-on Serverless applications, but also inspired me to embrace cloud architecture best practices and a culture of continuous innovation.
 
-This journey enabled me to bridge the gap between academic theory and industry practice, equipping me with structured problem-solving skills, project milestone management, and a professional engineering mindset.
+Throughout this period, I cultivated a proactive work ethic, established structured time management and milestone tracking, and actively embraced constructive feedback from my Mentor and colleagues to constantly refine my capabilities. These real-world experiences provided a clear blueprint of modern enterprise tech standards, solidifying my career direction as a future Cloud / DevOps Engineer.
 
-Below is my detailed self-assessment across core competency criteria:
+Reflecting on this transformative journey, I evaluate my performance across core competency criteria below:
 
 | No. | Criteria | Description | Excellent | Good | Average |
 |----:|----------|-------------|:---------:|:----:|:-------:|
-| 1 | Technical Knowledge | Mastered core AWS services (EC2, RDS, DynamoDB, Lambda, API Gateway, SAM) | x | | |
-| 2 | Learning Ability | Quickly adopted and applied modern cloud frameworks | x | | |
-| 3 | Self-Research Skills | Independently studied official docs and resolved technical issues | x | | |
-| 4 | Responsibility | Delivered all assigned project milestones on schedule | x | | |
-| 5 | Proactiveness | Proposed architecture optimizations and cloud cost controls | x | | |
-| 6 | Teamwork | Collaborated effectively using structured Git Flow practices | x | | |
-| 7 | Communication & Reporting | Articulated technical progress and solutions clearly to mentor | | x | |
-| 8 | Discipline & Ethics | Complied strictly with security policies and company standards | x | | |
-| 9 | Adaptability | Seamlessly integrated into professional enterprise workflows | x | | |
-| 10 | Troubleshooting & Analysis | Leveraged CloudWatch Logs to diagnose and resolve errors | | x | |
-| 11 | Time Management | Balanced theoretical learning with hands-on coding milestones | x | | |
-| 12 | Work Quality | Produced reliable code meeting performance testing benchmarks | x | | |
-| 13 | Receptiveness to Feedback | Actively incorporated mentor guidance to improve code quality | x | | |
-| 14 | Creativity & AI Usage | Leveraged AI tools (Amazon Q, GitHub Copilot) to boost efficiency | | x | |
-| 15 | Project Contribution | Built complete Lambda CRUD functions and CI/CD pipelines | x | | |
-| 16 | Professional Ethics | Respected data privacy, credentials security, and confidentiality | x | | |
-| 17 | Ability Under Pressure | Maintained high productivity during sprint deadlines | | x | |
-| 18 | Overall Evaluation | Comprehensive assessment of the 12-week internship period | x | | |
+| 1 | Technical Knowledge | Mastered core AWS services (EC2, RDS, DynamoDB, Lambda, API Gateway, SAM) | ✅ | ☐ | ☐ |
+| 2 | Learning Ability | Quickly adopted and applied modern cloud frameworks | ✅ | ☐ | ☐ |
+| 3 | Self-Research Skills | Independently studied official docs and resolved technical issues | ✅ | ☐ | ☐ |
+| 4 | Responsibility | Delivered all assigned project milestones on schedule | ✅ | ☐ | ☐ |
+| 5 | Proactiveness | Proposed architecture optimizations and cloud cost controls | ✅ | ☐ | ☐ |
+| 6 | Teamwork | Collaborated effectively using structured Git Flow practices | ✅ | ☐ | ☐ |
+| 7 | Communication & Reporting | Articulated technical progress and solutions clearly to mentor | ☐ | ✅ | ☐ |
+| 8 | Discipline & Ethics | Complied strictly with security policies and company standards | ✅ | ☐ | ☐ |
+| 9 | Adaptability | Seamlessly integrated into professional enterprise workflows | ✅ | ☐ | ☐ |
+| 10 | Troubleshooting & Analysis | Leveraged CloudWatch Logs to diagnose and resolve errors | ☐ | ✅ | ☐ |
+| 11 | Time Management | Balanced theoretical learning with hands-on coding milestones | ✅ | ☐ | ☐ |
+| 12 | Work Quality | Produced reliable code meeting performance testing benchmarks | ✅ | ☐ | ☐ |
+| 13 | Receptiveness to Feedback | Actively incorporated mentor guidance to improve code quality | ✅ | ☐ | ☐ |
+| 14 | Creativity & AI Usage | Leveraged AI tools (Amazon Q, GitHub Copilot) to boost efficiency | ☐ | ✅ | ☐ |
+| 15 | Project Contribution | Built complete Lambda CRUD functions and CI/CD pipelines | ✅ | ☐ | ☐ |
+| 16 | Professional Ethics | Respected data privacy, credentials security, and confidentiality | ✅ | ☐ | ☐ |
+| 17 | Ability Under Pressure | Maintained high productivity during sprint deadlines | ☐ | ✅ | ☐ |
+| 18 | Overall Evaluation | Comprehensive assessment of the 12-week internship period | ✅ | ☐ | ☐ |
 
 ---
 

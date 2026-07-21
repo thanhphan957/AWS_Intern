@@ -25,7 +25,7 @@ pre: " <b> 1.12. </b> "
 | Sunday / Monday | - Finalize Internship Final Report summarizing complete system architecture, IaC/CI-CD deployment procedures, and project deliverables. | 05/07/2026 | 06/07/2026 | Final Report |
 | Tuesday | - Record comprehensive application demo video showcasing the Todo List web UI, main CRUD functionality, and AWS Cognito authentication flow. | 07/07/2026 | 07/07/2026 | Video Demo |
 | Wednesday | - Verify and back up all critical technical documentation and codebases.<br>- Tear down and clean up unused AWS cloud resources including Cognito User Pools, SAM Stack, CloudFront Distribution, and S3 Bucket to eliminate recurring costs. | 08/07/2026 | 08/07/2026 | AWS Cleanup |
-| Thursday | - Final debrief meeting with enterprise mentor and project managers to present final internship deliverables and handover project assets. | 09/07/2026 | 09/07/2026 | Team Docs |
+| Thursday | - Review all documentation, finalize the internship summary report, and submit project deliverables to the mentor. | 09/07/2026 | 09/07/2026 | Final Report |
 
 ### Outcomes achieved in week 12:
 

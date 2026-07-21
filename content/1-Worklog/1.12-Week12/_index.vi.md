@@ -25,7 +25,7 @@ pre: " <b> 1.12. </b> "
 | Chủ nhật / Thứ 2 | - Hoàn thiện báo cáo thực tập cuối kỳ (Internship Final Report).<br>- Tổng hợp toàn bộ kiến trúc hệ thống, quy trình triển khai IaC/CI-CD và kết quả đạt được của dự án. | 05/07/2026 | 06/07/2026 | Báo cáo thực tập |
 | Thứ 3 | - Quay video demo minh họa toàn bộ giao diện ứng dụng web Todo List, trình bày các chức năng chính (CRUD Todo) và quy trình xác thực người dùng bằng AWS Cognito. | 07/07/2026 | 07/07/2026 | Video Demo |
 | Thứ 4 | - Kiểm tra, sao lưu toàn bộ các tài liệu kỹ thuật và mã nguồn cần thiết.<br>- Thực hiện dọn dẹp các tài nguyên AWS không còn sử dụng gồm Cognito User Pool, SAM Stack, CloudFront Distribution và S3 Bucket nhằm tránh phát sinh chi phí ngoài ý muốn. | 08/07/2026 | 08/07/2026 | AWS Cleanup |
-| Thứ 5 | - Họp buổi cuối cùng với Mentor và Ban Quản lý tại doanh nghiệp để báo cáo kết quả thực tập, nghiệm thu và bàn giao sản phẩm. | 09/07/2026 | 09/07/2026 | Tài liệu nhóm |
+| Thứ 5 | - Rà soát toàn bộ tài liệu, hoàn tất báo cáo tổng kết kỳ thực tập và bàn giao hồ sơ dự án cho mentor hướng dẫn. | 09/07/2026 | 09/07/2026 | Báo cáo thực tập |
 
 ### Kết quả đạt được tuần 12:
 

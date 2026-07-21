@@ -8,11 +8,11 @@ pre: " <b> 6. </b> "
 
 ## Tự đánh giá quá trình thực tập
 
-Hành trình 12 tuần thực tập tại **Amazon Web Services Vietnam Co., Ltd.** là một trải nghiệm bước ngoặt đầy ý nghĩa, mang lại cho tôi những giá trị phát triển vượt bậc cả về tư duy công nghệ lẫn bản lĩnh nghề nghiệp. Được trực tiếp đắm mình trong môi trường làm việc chuẩn toàn cầu của AWS, tôi không chỉ có cơ hội chuyển hóa những nền tảng lý thuyết tích lũy từ nhà trường thành năng lực triển khai các dự án Serverless thực chiến, mà còn tiếp thu sâu sắc tư duy kiến trúc đám mây tiên tiến và văn hóa đổi mới sáng tạo.
+Trong thời gian thực tập tại **Công ty TNHH Amazon Web Services Vietnam**, tôi đã có cơ hội tiếp cận với môi trường làm việc chuyên nghiệp và được tham gia vào các công việc liên quan đến chuyên ngành Công nghệ thông tin. Đây là khoảng thời gian giúp tôi vận dụng những kiến thức đã học trên giảng đường vào thực tế, đồng thời tích lũy thêm nhiều kinh nghiệm trong quá trình làm việc.
 
-Xuyên suốt đợt thực tập, tôi đã tự rèn luyện tinh thần làm việc chủ động, thiết lập quy trình quản lý thời gian và mục tiêu công việc khoa học, đồng thời luôn mở lòng tiếp nhận những phản hồi quý báu từ Mentor cùng các anh chị đồng nghiệp để liên tục refactor bản thân. Những trải nghiệm thực tế này đã khắc họa rõ nét bức tranh toàn cảnh về tiêu chuẩn làm việc trong ngành công nghệ hiện đại, giúp tôi định hình vững chắc con đường sự nghiệp và chuẩn bị đầy đủ hành trang để trở thành một kỹ sư Cloud / DevOps chuyên nghiệp.
+Bên cạnh kiến thức chuyên môn, tôi cũng học được cách làm việc có kế hoạch, quản lý thời gian hợp lý, chủ động trao đổi với người hướng dẫn khi gặp khó khăn và tiếp thu các ý kiến đóng góp để hoàn thiện bản thân. Những trải nghiệm này giúp tôi hiểu rõ hơn về yêu cầu của môi trường làm việc thực tế cũng như những kỹ năng cần chuẩn bị cho công việc sau khi tốt nghiệp.
 
-Nhìn lại toàn bộ chặng đường đã qua, tôi xin tự đánh giá và tổng kết kết quả rèn luyện của bản thân theo các tiêu chí năng lực dưới đây:
+Dựa trên toàn bộ quá trình thực tập, tôi tự đánh giá bản thân theo các tiêu chí sau:
 
 | STT | Tiêu chí | Mô tả năng lực | Tốt | Khá | Trung bình |
 |-----|----------|----------------|:---:|:---:|:----------:|
@@ -59,6 +59,4 @@ Nhìn lại toàn bộ chặng đường đã qua, tôi xin tự đánh giá và
 
 ## Kết luận
 
-Chặng đường 12 tuần thực tập tại AWS Vietnam là một cột mốc quan trọng giúp tôi bước ra khỏi vùng an toàn, biến những lý thuyết trên giảng đường thành năng lực thực chiến thực sự. Qua từng tuần học tập và triển khai dự án Serverless Todo API, tôi không chỉ tích lũy được khối lượng kiến thức hạ tầng mây giá trị mà còn rèn luyện được bản lĩnh nghề nghiệp, tư duy hệ thống và tác phong làm việc chuẩn mực.
-
-Tôi xin chân thành cảm ơn sự hướng dẫn tận tình từ Mentor và sự hỗ trợ từ các đồng đội. Đây sẽ là nền tảng vững chắc để tôi tiếp tục nỗ lực phát triển trở thành một Cloud / DevOps Engineer chuyên nghiệp trong tương lai.
+Đợt thực tập là cơ hội quý báu giúp tôi chuyển hóa kiến thức lý thuyết thành kinh nghiệm thực tế, đồng thời hiểu rõ hơn về môi trường làm việc trong doanh nghiệp. Mặc dù vẫn còn một số hạn chế cần khắc phục, tôi tin rằng với tinh thần cầu tiến và ý thức học hỏi không ngừng, bản thân sẽ tiếp tục hoàn thiện kỹ năng chuyên môn cũng như kỹ năng mềm để đáp ứng tốt hơn yêu cầu công việc trong tương lai.

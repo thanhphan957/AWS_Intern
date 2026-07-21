@@ -8,11 +8,11 @@ pre: " <b> 6. </b> "
 
 ## Internship Self-Assessment
 
-The 12-week internship journey at **Amazon Web Services Vietnam Co., Ltd.** has been a pivotal and deeply meaningful milestone in my growth, empowering me with significant advancements in both technical acumen and professional engineering mindset. Being immersed directly in AWS's global-standard environment not only allowed me to translate academic knowledge into hands-on Serverless applications, but also inspired me to embrace cloud architecture best practices and a culture of continuous innovation.
+During my internship at **Amazon Web Services Vietnam Co., Ltd.**, I had the opportunity to work in a professional environment and participate in tasks related to Information Technology. This internship allowed me to apply academic knowledge into practice while gaining valuable hands-on experience.
 
-Throughout this period, I cultivated a proactive work ethic, established structured time management and milestone tracking, and actively embraced constructive feedback from my Mentor and colleagues to constantly refine my capabilities. These real-world experiences provided a clear blueprint of modern enterprise tech standards, solidifying my career direction as a future Cloud / DevOps Engineer.
+In addition to improving my technical knowledge, I also developed essential soft skills, including planning, time management, effective communication with my supervisor, and the ability to receive and apply constructive feedback. These experiences gave me a clearer understanding of workplace expectations and the competencies required for a future career in the IT industry.
 
-Reflecting on this transformative journey, I evaluate my performance across core competency criteria below:
+Based on my overall internship experience, I evaluate my performance according to the following criteria:
 
 | No. | Criteria | Description | Excellent | Good | Average |
 |----:|----------|-------------|:---------:|:----:|:-------:|
@@ -59,6 +59,4 @@ Reflecting on this transformative journey, I evaluate my performance across core
 
 ## Conclusion
 
-The 12-week internship at AWS Vietnam served as a vital stepping stone in my career, transforming university concepts into practical engineering capabilities. Developing the Serverless Todo API allowed me to master cloud infrastructure, system design, and professional engineering workflows.
-
-I express my gratitude to my mentor and team members for their invaluable support. This foundation will drive my goal of becoming a skilled Cloud / DevOps Engineer in the future.
+The internship was a valuable opportunity that enabled me to transform academic knowledge into practical experience while gaining a deeper understanding of the professional working environment. Although there are still areas that require improvement, I believe that through continuous learning, dedication, and self-improvement, I will become a more competent software developer and be well prepared for future career opportunities.

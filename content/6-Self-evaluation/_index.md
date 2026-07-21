@@ -16,24 +16,24 @@ Reflecting on this transformative journey, I evaluate my performance across core
 
 | No. | Criteria | Description | Excellent | Good | Average |
 |----:|----------|-------------|:---------:|:----:|:-------:|
-| 1 | Technical Knowledge | Mastered core AWS services (EC2, RDS, DynamoDB, Lambda, API Gateway, SAM) | ✅ | ☐ | ☐ |
-| 2 | Learning Ability | Quickly adopted and applied modern cloud frameworks | ✅ | ☐ | ☐ |
-| 3 | Self-Research Skills | Independently studied official docs and resolved technical issues | ✅ | ☐ | ☐ |
-| 4 | Responsibility | Delivered all assigned project milestones on schedule | ✅ | ☐ | ☐ |
-| 5 | Proactiveness | Proposed architecture optimizations and cloud cost controls | ✅ | ☐ | ☐ |
-| 6 | Teamwork | Collaborated effectively using structured Git Flow practices | ✅ | ☐ | ☐ |
-| 7 | Communication & Reporting | Articulated technical progress and solutions clearly to mentor | ☐ | ✅ | ☐ |
-| 8 | Discipline & Ethics | Complied strictly with security policies and company standards | ✅ | ☐ | ☐ |
-| 9 | Adaptability | Seamlessly integrated into professional enterprise workflows | ✅ | ☐ | ☐ |
-| 10 | Troubleshooting & Analysis | Leveraged CloudWatch Logs to diagnose and resolve errors | ☐ | ✅ | ☐ |
-| 11 | Time Management | Balanced theoretical learning with hands-on coding milestones | ✅ | ☐ | ☐ |
-| 12 | Work Quality | Produced reliable code meeting performance testing benchmarks | ✅ | ☐ | ☐ |
-| 13 | Receptiveness to Feedback | Actively incorporated mentor guidance to improve code quality | ✅ | ☐ | ☐ |
-| 14 | Creativity & AI Usage | Leveraged AI tools (Amazon Q, GitHub Copilot) to boost efficiency | ☐ | ✅ | ☐ |
-| 15 | Project Contribution | Built complete Lambda CRUD functions and CI/CD pipelines | ✅ | ☐ | ☐ |
-| 16 | Professional Ethics | Respected data privacy, credentials security, and confidentiality | ✅ | ☐ | ☐ |
-| 17 | Ability Under Pressure | Maintained high productivity during sprint deadlines | ☐ | ✅ | ☐ |
-| 18 | Overall Evaluation | Comprehensive assessment of the 12-week internship period | ✅ | ☐ | ☐ |
+| 1 | **Technical Knowledge** | Mastered core AWS services (EC2, RDS, DynamoDB, Lambda, API Gateway, SAM) | ✅ | ☐ | ☐ |
+| 2 | **Learning Ability** | Quickly adopted and applied modern cloud frameworks | ✅ | ☐ | ☐ |
+| 3 | **Self-Research Skills** | Independently studied official docs and resolved technical issues | ✅ | ☐ | ☐ |
+| 4 | **Responsibility** | Delivered all assigned project milestones on schedule | ✅ | ☐ | ☐ |
+| 5 | **Proactiveness** | Proposed architecture optimizations and cloud cost controls | ✅ | ☐ | ☐ |
+| 6 | **Teamwork** | Collaborated effectively using structured Git Flow practices | ✅ | ☐ | ☐ |
+| 7 | **Communication & Reporting** | Articulated technical progress and solutions clearly to mentor | ☐ | ✅ | ☐ |
+| 8 | **Discipline & Ethics** | Complied strictly with security policies and company standards | ✅ | ☐ | ☐ |
+| 9 | **Adaptability** | Seamlessly integrated into professional enterprise workflows | ✅ | ☐ | ☐ |
+| 10 | **Troubleshooting & Analysis** | Leveraged CloudWatch Logs to diagnose and resolve errors | ☐ | ✅ | ☐ |
+| 11 | **Time Management** | Balanced theoretical learning with hands-on coding milestones | ✅ | ☐ | ☐ |
+| 12 | **Work Quality** | Produced reliable code meeting performance testing benchmarks | ✅ | ☐ | ☐ |
+| 13 | **Receptiveness to Feedback** | Actively incorporated mentor guidance to improve code quality | ✅ | ☐ | ☐ |
+| 14 | **Creativity & AI Usage** | Leveraged AI tools (Amazon Q, GitHub Copilot) to boost efficiency | ☐ | ✅ | ☐ |
+| 15 | **Project Contribution** | Built complete Lambda CRUD functions and CI/CD pipelines | ✅ | ☐ | ☐ |
+| 16 | **Professional Ethics** | Respected data privacy, credentials security, and confidentiality | ✅ | ☐ | ☐ |
+| 17 | **Ability Under Pressure** | Maintained high productivity during sprint deadlines | ☐ | ✅ | ☐ |
+| 18 | **Overall Evaluation** | Comprehensive assessment of the 12-week internship period | ✅ | ☐ | ☐ |
 
 ---
 

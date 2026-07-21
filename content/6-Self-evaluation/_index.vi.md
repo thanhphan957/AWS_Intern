@@ -39,21 +39,21 @@ Dưới đây là bảng tự đánh giá chi tiết theo các tiêu chí năng 
 
 ## Điểm mạnh
 
-- Khả năng tự học và làm chủ công nghệ mới: Chủ động nghiên cứu và áp dụng thành công các công cụ tiên tiến như AWS SAM CLI, DynamoDB Local, Docker và GitHub Actions vào dự án thực tế.
-- Tinh thần trách nhiệm và kỷ luật cao: Luôn cam kết hoàn thành các nhiệm vụ được giao đúng hạn, tuân thủ nghiêm ngặt các quy định về bảo mật và quy trình báo cáo.
-- Tư duy kiến trúc & Tối ưu chi phí: Có ý thức sâu sắc về việc tối ưu hóa chi phí đám mây (Cloud Cost Optimization), áp dụng chế độ On-Demand, TTL và thiết lập AWS Budgets.
-- Kỹ năng phối hợp và làm việc nhóm: Sử dụng thành thạo quy trình Git Flow, thực hiện Pull Request và code review nghiêm túc cùng các thành viên trong nhóm.
-- Thái độ cầu tiến & Tiếp thu tích cực: Luôn chủ động lắng nghe chỉ dẫn từ Mentor hướng dẫn, sẵn sàng chỉnh sửa và nâng cao chất lượng sản phẩm.
+- Chủ động tự học, nghiên cứu và làm chủ các công cụ công nghệ mới như AWS SAM CLI, DynamoDB Local, Docker và GitHub Actions để áp dụng hiệu quả vào dự án thực tế.
+- Thể hiện tinh thần trách nhiệm và kỷ luật cao thông qua việc luôn cam kết hoàn thành nhiệm vụ đúng tiến độ, tuân thủ nghiêm ngặt quy trình và quy định bảo mật.
+- Định hình tư duy kiến trúc và ý thức tối ưu chi phí đám mây bằng việc áp dụng linh hoạt chế độ On-Demand, cấu hình TTL và theo dõi qua AWS Budgets.
+- Phát huy kỹ năng phối hợp và làm việc nhóm hiệu quả khi sử dụng thành thạo quy trình Git Flow, thực hiện Pull Request và trao đổi code review tích cực.
+- Giữ thái độ cầu tiến, luôn chủ động lắng nghe góp ý từ Mentor hướng dẫn để tiếp thu và không ngừng nâng cao chất lượng sản phẩm.
 
 ---
 
 ## Những điểm cần cải thiện
 
-- Chuyên sâu hóa kỹ năng giao tiếp kỹ thuật: Tiếp tục rèn luyện khả năng thuyết trình kiến trúc hệ thống và diễn đạt ý tưởng một cách mạch lạc, súc tích hơn.
-- Nâng cao tư duy thiết kế hệ thống lớn: Mở rộng nghiên cứu các bài toán Microservices phức tạp, Event-Driven Architecture và các pattern về caching/load balancing nâng cao.
-- Trau dồi trình độ Tiếng Anh chuyên ngành: Đẩy mạnh việc đọc tài liệu kỹ thuật gốc (Official AWS Whitepapers/Docs) để cập nhật nhanh nhất các dịch vụ mới.
-- Tối ưu chuẩn hóa mã nguồn (Clean Code): Áp dụng triệt để các thiết kế Design Patterns, viết Unit Test bao phủ tốt hơn và refactor mã nguồn theo chuẩn chuyên nghiệp.
-- Mở rộng kiến thức về DevOps & DevSecOps: Tìm hiểu sâu hơn về Kubernetes (EKS), Terraform / AWS CDK và tích hợp các công cụ quét bảo mật tự động trong pipeline CI/CD.
+- Tiếp tục rèn luyện và chuyên sâu hóa kỹ năng giao tiếp kỹ thuật để trình bày kiến trúc hệ thống cũng như diễn đạt ý tưởng mạch lạc, súc tích hơn.
+- Nâng cao tư duy thiết kế hệ thống quy mô lớn thông qua việc nghiên cứu mở rộng các bài toán Microservices phức tạp, Event-Driven Architecture và các kỹ thuật Caching/Load Balancing.
+- Trau dồi trình độ Tiếng Anh chuyên ngành bằng cách gia tăng đọc tài liệu kỹ thuật gốc từ AWS Whitepapers để chủ động cập nhật các dịch vụ công nghệ mới.
+- Tối ưu và chuẩn hóa mã nguồn theo chuẩn Clean Code, áp dụng các mẫu thiết kế Design Patterns, bổ sung Unit Test bao phủ tốt hơn và thực hiện refactor code chuyên nghiệp.
+- Mở rộng tầm nhìn kiến thức về DevOps và DevSecOps, nghiên cứu sâu hơn về Kubernetes, Terraform, AWS CDK và tích hợp các công cụ tự động quét bảo mật trong CI/CD.
 
 ---
 

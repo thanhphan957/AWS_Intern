@@ -39,21 +39,21 @@ Below is my detailed self-assessment across core competency criteria:
 
 ## Strengths
 
-- Fast Learning & Technology Mastery: Proactively researched and implemented modern tools including AWS SAM CLI, DynamoDB Local, Docker, and GitHub Actions CI/CD.
-- High Responsibility & Discipline: Consistently met deadlines, adhered to corporate security protocols, and maintained reliable progress reporting.
-- Cloud Architecture & Cost Consciousness: Applied cost optimization techniques such as On-Demand billing, DynamoDB TTL, and AWS Budgets monitoring.
-- Effective Team Collaboration: Practiced Git Flow, conducted code reviews, and integrated feature branches smoothly with team members.
-- Growth Mindset: Actively sought constructive feedback from mentor to continuously refine code quality and architectural designs.
+- Demonstrated strong self-learning and technical mastery by actively researching and successfully applying modern tools like AWS SAM CLI, DynamoDB Local, Docker, and GitHub Actions into real projects.
+- Exhibited high responsibility and discipline through consistent on-time completion of assigned tasks, strict adherence to security protocols, and progress reporting.
+- Developed architectural awareness and cloud cost consciousness by flexibly configuring On-Demand mode, TTL rules, and AWS Budgets monitoring.
+- Utilized effective teamwork and collaboration skills by mastering Git Flow workflows, pull request processes, and active code reviews with team members.
+- Maintained a continuous improvement growth mindset by actively listening to mentor feedback and continuously elevating work output quality.
 
 ---
 
 ## Areas for Improvement
 
-- Enhance Technical Communication: Further refine presentation skills for technical solution walkthroughs.
-- Deepen System Architecture Expertise: Study complex microservices patterns, advanced event-driven designs, and distributed caching strategies.
-- Strengthen Technical English: Read official AWS whitepapers and documentation to stay updated on emerging cloud services.
-- Code Standardization & Refactoring: Enforce Clean Code principles, design patterns, and comprehensive unit testing coverage.
-- Expand DevOps & Security Knowledge: Explore Kubernetes (EKS), Terraform / AWS CDK, and automated security scanners in CI/CD pipelines.
+- Further enhance technical communication and presentation skills to articulate system architecture designs and engineering ideas more clearly and concisely.
+- Advance system architecture design thinking by studying complex microservices paradigms, Event-Driven Architecture, and advanced caching/load balancing patterns.
+- Strengthen specialized technical English proficiency by reading official AWS Whitepapers and documentation to stay aligned with emerging services.
+- Optimize source code standardization following Clean Code principles, design patterns, comprehensive unit testing, and professional code refactoring.
+- Expand DevOps and DevSecOps knowledge domains by exploring Kubernetes (EKS), Terraform, AWS CDK, and automated security scanners within CI/CD pipelines.
 
 ---
 

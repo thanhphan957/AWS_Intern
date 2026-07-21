@@ -13,9 +13,9 @@ chapter: false
 ### Student Information:
 &emsp; **Full Name:** Phan Ba Thanh
 
-&emsp; **Email:** bathanh040824@gmail.com
-
 &emsp; **Phone Number:** 0377372428
+
+&emsp; **Email:** bathanh040824@gmail.com
 
 &emsp; **University:** University of Technology (HUTECH)
 

@@ -9,9 +9,9 @@ chapter: false
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Phan Bá Thanh
 
-&emsp; **Email:** bathanh040824@gmail.com
-
 &emsp; **Số điện thoại:** 0377372428
+
+&emsp; **Email:** bathanh040824@gmail.com
 
 &emsp; **Trường:** Đại học Công Nghệ TP.HCM (HUTECH)
 

@@ -20,44 +20,42 @@ pre: " <b> 2. </b> "
 Một hệ thống quản lý Todo hiện đại, có thể mở rộng được xây dựng hoàn toàn trên các dịch vụ serverless của AWS. Người dùng có thể tạo, xem, cập nhật và xóa các công việc thông qua REST API, rất phù hợp để học kiến trúc AWS và các best practice.
 
 ![Kiến trúc Serverless](KienTrucDuAn.jpg)
-![DynamoDB Table](DynamoDb1.jpg)
-![Email Notification](GiaodienEmail_WebHook.jpg)
-![Web Interface](GiaoDien.jpg)
+![alt text](<DynamoDb1.jpg>) ![alt text](<GiaodienEmail_WebHook.jpg>) ![alt text](<NhapEmail_WebHook.jpg>) ![alt text](<DynamoDB.jpg>)
 
 ---
 
 ## 2. Vấn đề Cần Giải Quyết
 
 ### Thách Thức Hiện Tại
-- Ứng dụng truyền thống dựa trên máy chủ đòi hỏi phải quản lý liên tục
-- Thách thức về khả năng mở rộng (scaling) với hạ tầng cố định
-- Chi phí vận hành cao do tài nguyên máy chủ nhàn rỗi
-- Khó tiếp cận và học hỏi kiến trúc Cloud-Native
+- Ứng dụng truyền thống dựa trên máy chủ đòi hỏi phải quản lý liên tục.
+- Vấn đề scaling với hạ tầng cố định.
+- Chi phí hoạt động cao từ tài nguyên máy chủ nhàn rỗi.
+- Khó học và tiếp cận kiến trúc cloud-native.
 
 ### Giải Pháp
-Xây dựng giải pháp Serverless đáp ứng:
-- Không cần quản lý máy chủ vật lý hay máy chủ ảo
-- Tự động mở rộng theo nhu cầu thực tế
-- Chi phí tối ưu, chỉ trả cho lượng sử dụng thực tế
-- Minh họa chuẩn mực các best practices của AWS
+Xây dựng giải pháp serverless:
+- Không cần quản lý máy chủ.
+- Tự động mở rộng theo nhu cầu sử dụng.
+- Chi phí chỉ tính cho lượng sử dụng thực tế.
+- Minh họa chuẩn mực best practices của AWS.
 
 ---
 
 ## 3. Mục Tiêu Dự Án
 
 ### Mục Tiêu Chính
-1. **Học AWS Services**: Thực hành chuyên sâu với Lambda, DynamoDB, API Gateway, Cognito, SES.
-2. **Viết Code Chuyên Nghiệp**: Mã nguồn sạch, dễ bảo trì và mở rộng.
-3. **Hiểu Kiến Trúc Serverless**: Nắm rõ thời điểm và phương pháp áp dụng Serverless hiệu quả.
-4. **Triển Khai Bảo Mật**: Áp dụng nguyên tắc phân quyền tối thiểu (Least Privilege) với IAM và JWT Auth.
-5. **Giám Sát & Xử Lý Lỗi**: Sử dụng Amazon CloudWatch để nâng cao tính khả quan (Observability).
+1. **Học AWS Services**: Thực hành chuyên sâu với Lambda, DynamoDB, API Gateway.
+2. **Viết Code Chuyên Nghiệp**: Mã sạch, dễ bảo trì bằng Python / Node.js.
+3. **Hiểu Kiến Trúc Serverless**: Nắm rõ thời điểm và cách áp dụng serverless hiệu quả.
+4. **Triển Khai Bảo Mật**: Áp dụng nguyên tắc phân quyền tối thiểu (IAM Least Privilege).
+5. **Giám Sát & Xử Lý Lỗi**: Sử dụng Amazon CloudWatch để tăng tính khả quan (Observability).
 
 ### Kết Quả Đo Lường Được
-- Hoàn thiện trọn bộ CRUD API với đầy đủ endpoints hoạt động ổn định.
-- Không phát sinh lỗi trong hơn 100+ requests thử nghiệm.
+- Hoàn thiện trọn bộ CRUD API với tất cả endpoints hoạt động mượt mà.
+- 0 lỗi trong hơn 100+ requests thử nghiệm.
 - Thời gian phản hồi trung bình < 100ms.
-- Bộ tài liệu hướng dẫn triển khai hoàn chỉnh.
-- Chi phí tối ưu trên hạ tầng AWS.
+- Tài liệu hướng dẫn triển khai đầy đủ.
+- Chi phí tối ưu < $1 USD.
 
 ---
 
@@ -72,7 +70,7 @@ Xây dựng giải pháp Serverless đáp ứng:
         ┌─────────────────────┼─────────────────────┐
         ↓                      ↓                      ↓
   [CreateTodo]          [GetTodos]          [UpdateTodo/Delete]
-  (Lambda Function)     (Lambda Function)   (Lambda Function)
+  (Lambda Python)       (Lambda Python)     (Lambda Python)
         ↓                      ↓                      ↓
         └─────────────────────┼─────────────────────┘
                               ↓
@@ -83,50 +81,137 @@ Xây dựng giải pháp Serverless đáp ứng:
                        (Monitoring)
 ```
 
-### Dịch Vụ AWS Cốt Lõi
+### Dịch Vụ AWS Sử Dụng (3 Dịch Vụ Cốt Lõi)
 
 | Dịch Vụ | Mục Đích | Lý Do Chọn |
 |---------|----------|----------|
-| **API Gateway** | Quản lý REST API endpoints | Được quản lý hoàn toàn, dễ mở rộng, tích hợp tốt |
-| **AWS Lambda** | Thực thi logic kinh doanh | Chi phí theo lượt dùng, tự động scale |
-| **DynamoDB** | Lưu trữ dữ liệu NoSQL | Quản lý hoàn toàn, khả năng mở rộng vô hạn |
+| **API Gateway** | REST API endpoints | Được quản lý, dễ mở rộng, tích hợp tốt |
+| **Lambda** | Logic kinh doanh | Thanh toán theo lượt dùng, tự động scale |
+| **DynamoDB** | Lưu trữ dữ liệu | Quản lý hoàn toàn, khả năng mở rộng vô hạn |
+
+### Bảo Mật IAM
+- Nguyên tắc Least Privilege: Mỗi Lambda có quyền tối thiểu.
+- Phân chia vai trò (Role) riêng biệt cho từng hàm.
+- Không chứa credentials cứng trong mã nguồn.
 
 ---
 
-## 5. Timeline Dự Án
+## 5. Lộ Trình Dự Án (Timeline)
 
-### Giai Đoạn 1: Thiết lập & Nền tảng (Tuần 1-5) ✅
-- Cấu hình tài khoản AWS, CLI, IAM Roles và VPC.
-- Khởi tạo cơ sở dữ liệu thử nghiệm (RDS & DynamoDB).
+### Giai Đoạn 1: Setup (Tuần 1-2) ✅
+- Tạo tài khoản AWS và cấu hình AWS CLI.
+- Tạo bảng DynamoDB.
+- Thiết lập IAM Roles ban đầu.
 
-### Giai Đoạn 2: Phát Triển Serverless API (Tuần 6-10) ✅
-- Phát triển các hàm Lambda (Create/Read/Update/Delete Todo).
-- Cấu hình API Gateway, Cognito Authorizer & SES Notifications.
-- Tích hợp Frontend UI tĩnh với AWS S3 & CloudFront.
+### Giai Đoạn 2: Phát Triển (Tuần 3-10) ✅
+- Lập trình các hàm Lambda (Create/Read/Update/Delete).
+- Cấu hình API Gateway.
+- Kiểm thử tích hợp.
+- Giám sát qua CloudWatch.
 
-### Giai Đoạn 3: Tự Động Hóa & Báo Cáo (Tuần 11-12) ✅
-- Xây dựng CI/CD Pipeline với GitHub Actions & AWS SAM.
-- Kiểm thử tải (Load Testing) bằng Artillery & hoàn thiện báo cáo thực tập.
-
----
-
-## 6. Tiêu Chí Thành Công
-
-✅ **Chức Năng**
-- Đầy đủ các endpoints CRUD hoạt động mượt mà.
-- 100% test pass rate.
-- Response time trung bình < 100ms.
-
-✅ **Bảo Mật & Giám Sát**
-- Phân quyền IAM Least Privilege.
-- Xác thực người dùng bằng JWT Token via Cognito.
-- Giám sát nhật ký chi tiết qua CloudWatch Logs.
-
-✅ **Tài Liệu & Chi Phí**
-- Bộ tài liệu song ngữ (Việt / Anh).
-- Hướng dẫn triển khai chi tiết từng bước.
-- Chi phí tối ưu trong hạn mức AWS Free Tier.
+### Giai Đoạn 3: Tài Liệu & Triển Khai (Tuần 11-12) ✅
+- Hoàn thiện tài liệu song ngữ (Việt / Anh).
+- Hạ tầng dưới dạng mã nguồn (CloudFormation / AWS SAM).
+- Kiểm thử cuối cùng và dọn dẹp tài nguyên.
 
 ---
 
-**Trạng Thái Dự Án**: ✅ Phê Duyệt & Hoàn Thành Triển Khai
+## 6. Yêu Cầu Kỹ Thuật (Technical Requirements)
+
+### Đặc Tả Web API
+
+#### POST /todos - Tạo Todo Mới
+```
+Request: {
+  "title": "string (bắt buộc)",
+  "description": "string",
+  "status": "pending|completed"
+}
+Response: 201 {
+  "todoId": "uuid",
+  "createdAt": timestamp
+}
+```
+
+#### GET /todos - Lấy Danh Sách Todo
+```
+Response: 200 [
+  { "todoId": "...", ... }
+]
+```
+
+#### PUT /todos/{id} - Cập Nhật Todo
+```
+Request: { "status": "completed" }
+Response: 200 { ...updated item }
+```
+
+#### DELETE /todos/{id} - Xóa Todo
+```
+Response: 204 (No Content)
+```
+
+---
+
+## 7. Tiêu Chí Thành Công
+
+✅ **Yêu Cầu Chức Năng**
+- Cả 4 endpoints CRUD hoạt động ổn định.
+- Tỷ lệ vượt qua kiểm thử đạt 100%.
+- Thời gian phản hồi trung bình < 100ms.
+
+✅ **Yêu Cầu Phi Chức Năng**
+- Không có lỗi không được xử lý (unhandled errors).
+- Chi phí < $1 USD.
+- Ghi log đầy đủ trên CloudWatch để phục vụ debug.
+
+✅ **Tài Liệu**
+- Song ngữ (Tiếng Việt / Tiếng Anh).
+- Hướng dẫn triển khai từng bước.
+- Sơ đồ kiến trúc rõ ràng.
+
+---
+
+## 8. Quản Lý Rủi Ro & Biện Pháp Khắc Phục
+
+| Rủi Ro | Xác Suất | Mức Độ Ảnh Hưởng | Biện Pháp Khắc Phục |
+|--------|----------|------------------|---------------------|
+| Timeout ở Lambda | Thấp | Cao | Tối ưu code, tăng thời gian timeout |
+| Giới hạn DynamoDB | Thấp | Trung bình | Sử dụng chế độ thanh toán On-demand |
+| Lỗi API Gateway | Trung bình | Trung bình | Xử lý lỗi toàn diện (Error Handling) |
+| Rào cản công nghệ | Trung bình | Cao | Tham khảo tài liệu chuẩn của AWS |
+
+---
+
+## 9. Lợi Ích & Kết Quả Học Tập
+
+### Cho Sự Phát Triển Nghề Nghiệp
+- Tiếp cận kiến trúc Serverless chuẩn công nghiệp.
+- Chuẩn bị cho các chứng chỉ AWS.
+- Xây dựng dự án chất lượng cho Hồ sơ cá nhân (Portfolio).
+- Áp dụng các best practices về Cloud-Native.
+
+### Cho Tổ Chức / Doanh Nghiệp
+- Chi phí vận hành thấp, dễ bảo trì.
+- Khả năng mở rộng cho hàng triệu người dùng.
+- Tích hợp sẵn hệ thống giám sát và nhật ký.
+- Dễ dàng nâng cấp và phát triển mở rộng.
+
+---
+
+## 10. Dự Toán Ngân Sách & Tài Nguyên
+
+### Tài Nguyên AWS
+- API Gateway: Thuộc gói Free Tier.
+- Lambda: Free Tier (1 triệu yêu cầu/tháng).
+- DynamoDB: Free Tier (25 GB dung lượng).
+- **Chi phí dự kiến**: < $1 USD.
+
+### Tài Nguyên Phát Triển
+- Thời gian: 40 giờ (3 giờ/tuần × 12 tuần).
+- Công cụ: VS Code, AWS CLI, Postman.
+- Định dạng tài liệu: Markdown, Diagram.
+
+---
+
+**Trạng Thái Đề Xuất**: ✅ Phê Duyệt Triển Khai

@@ -15,6 +15,8 @@ chapter: false
 
 &emsp; **Email:** bathanh040824@gmail.com
 
+&emsp; **Phone Number:** 0377372428
+
 &emsp; **University:** University of Technology (HUTECH)
 
 &emsp; **Major:** Information Technology
@@ -25,7 +27,7 @@ chapter: false
 
 &emsp; **Internship Position:** FCAJ Cloud Intern
 
-&emsp; **Internship Duration:** From 04/05/2026 to 12/07/2026
+&emsp; **Internship Duration:** From 17/04/2026 to 10/07/2026
 
 ![Your profile picture](/AWS_Intern/images/avatar.png)
 

@@ -11,6 +11,8 @@ chapter: false
 
 &emsp; **Email:** bathanh040824@gmail.com
 
+&emsp; **Số điện thoại:** 0377372428
+
 &emsp; **Trường:** Đại học Công Nghệ TP.HCM (HUTECH)
 
 &emsp; **Ngành:** Công nghệ thông tin
@@ -21,7 +23,7 @@ chapter: false
 
 &emsp; **Vị trí thực tập:** FCAJ Cloud Intern
 
-&emsp; **Thời gian thực tập:** Từ ngày 04/05/2026 đến ngày 12/07/2026
+&emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 10/07/2026
 
 ![Ảnh đại diện của bạn](/AWS_Intern/images/avatar.png)
 

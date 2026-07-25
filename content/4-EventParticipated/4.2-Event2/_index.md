@@ -24,27 +24,27 @@ Key learning objectives included:
 
 ### 2. Detailed Technical Analysis of Hackathon Architectural Challenges
 
-#### 2.1. Team 3KA - "Hackathon Journey: Building a Serverless MVP in 24 Hours" (`Hackathon_Journey_3KA.pptx`)
+#### 2.1. Team 3KA - "Hackathon Journey: Building a Serverless MVP in 24 Hours"
 - **Architectural Challenge**: How to build a fully functional system within 24-48 hours that handles sudden traffic spikes during live judge demos while maintaining near-zero idle costs.
 - **AWS Architectural Solution**:
   - Implemented an **AWS Serverless Architecture** (Amazon API Gateway + AWS Lambda + Amazon DynamoDB).
   - Eliminated server management (EC2), reducing infrastructure setup time to under 10 minutes.
   - Leveraged automatic scaling to seamlessly accommodate demo traffic bursts.
 
-#### 2.2. OneTeam - "OneTeam Community Day: Infrastructure Automation & Collaborative Delivery" (`OneTeam_CommunityDay.pptx`)
+#### 2.2. OneTeam - "OneTeam Community Day: Infrastructure Automation & Collaborative Delivery"
 - **Architectural Challenge**: Synchronizing workflows across Frontend, Backend, Cloud Architect, and DevOps roles under a *OneTeam* mindset, eliminating deployment bottlenecks and version conflicts.
 - **AWS Architectural Solution**:
   - Adopted **Infrastructure as Code (IaC)** with Terraform to define all cloud resources declaratively.
   - Built an automated **CI/CD Pipeline** using GitHub Actions and AWS CodePipeline, enabling seamless testing and deployment to AWS within minutes of committing code.
 
-#### 2.3. Native App Team - "SA Professional Native App: Integrating Mobile Native Apps with Cloud Backends" (`SA_Professional_Native_App.pptx`)
+#### 2.3. Native App Team - "SA Professional Native App: Integrating Mobile Native Apps with Cloud Backends"
 - **Architectural Challenge**: Designing Native mobile apps (iOS/Android) paired with cloud backends requiring ultra-low latency, real-time data sync, and enterprise-grade authentication.
 - **AWS Architectural Solution**:
   - Utilized **AWS Amplify** with **AWS AppSync (GraphQL API)** for flexible data querying and real-time synchronization.
   - Integrated **Amazon Cognito** for secure user login/signup with MFA and fine-grained IAM Roles.
   - Employed **Amazon DynamoDB** for serverless storage achieving sub-10ms response times.
 
-#### 2.4. SignalScout Team - "SignalScout: Real-time Telemetry & Signal Stream Data Processing" (`SignalScout.pptx`)
+#### 2.4. SignalScout Team - "SignalScout: Real-time Telemetry & Signal Stream Data Processing"
 - **Architectural Challenge**: Ingesting and processing continuous, high-volume real-time sensor/telemetry data streams without system congestion or data loss.
 - **AWS Architectural Solution**:
   - Built a scalable data ingestion pipeline using **Amazon Kinesis Data Streams** handling thousands of events per second.
@@ -55,12 +55,12 @@ Key learning objectives included:
 
 ### 3. Summary Matrix of Architectural Challenges & AWS Solutions
 
-| Project Team | Primary Architectural Challenge | AWS Solution Stack | Architectural Outcome | Slide File |
-| --- | --- | --- | --- | --- |
-| **Team 3KA** | Rapid 24h MVP deployment & traffic spikes | AWS Lambda, API Gateway, DynamoDB (Serverless) | Setup <10 mins, auto-scaling, zero idle cost | `Hackathon_Journey_3KA.pptx` |
-| **OneTeam** | Cross-functional sync & delivery bottleneck | Terraform (IaC), AWS CodePipeline, GitHub Actions | Automated CI/CD delivery under OneTeam culture | `OneTeam_CommunityDay.pptx` |
-| **SA Native App** | Mobile Native & Cloud integration, low-latency | AWS Amplify, Amazon Cognito, AppSync, DynamoDB | Real-time sync, <10ms response time, MFA security | `SA_Professional_Native_App.pptx` |
-| **SignalScout** | High-volume real-time telemetry stream processing | Amazon Kinesis Data Streams, AWS Lambda, Amazon S3 | Non-blocking real-time stream processing pipeline | `SignalScout.pptx` |
+| Project Team | Primary Architectural Challenge | AWS Solution Stack | Architectural Outcome |
+| --- | --- | --- | --- |
+| **Team 3KA** | Rapid 24h MVP deployment & traffic spikes | AWS Lambda, API Gateway, DynamoDB (Serverless) | Setup <10 mins, auto-scaling, zero idle cost |
+| **OneTeam** | Cross-functional sync & delivery bottleneck | Terraform (IaC), AWS CodePipeline, GitHub Actions | Automated CI/CD delivery under OneTeam culture |
+| **SA Native App** | Mobile Native & Cloud integration, low-latency | AWS Amplify, Amazon Cognito, AppSync, DynamoDB | Real-time sync, <10ms response time, MFA security |
+| **SignalScout** | High-volume real-time telemetry stream processing | Amazon Kinesis Data Streams, AWS Lambda, Amazon S3 | Non-blocking real-time stream processing pipeline |
 
 ---
 

@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Summary Report: "FCAJ Community Day"
+# Summary Report: "FCAJ x AABW Cloud Workshop"
 
 ### Event Information
 
 | Category | Details |
 | --- | --- |
-| **Event Title** | FCAJ Community Day |
+| **Event Title** | FCAJ x AABW Cloud Workshop |
 | **Date & Time** | 09:00, July 25, 2026 |
 | **Location** | Floors 26 & 36, Bitexco Financial Tower, No. 02 Hai Trieu, Sai Gon Ward, Ho Chi Minh City |
 | **Role** | Attendee |

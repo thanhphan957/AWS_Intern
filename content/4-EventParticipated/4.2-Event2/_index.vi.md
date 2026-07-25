@@ -1,69 +1,66 @@
 ---
-title: "Sự kiện 2: FCAJ x AABW Cloud Workshop & Community Networking"
+title: "Sự kiện 2: FCAJ x AABW Cloud Workshop - Hackathon Sharing & Technical Presentations"
 date: 2026-07-26
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Bài thu hoạch Sự kiện: "FCAJ x AABW Cloud Workshop & Career Networking"
+# Bài thu hoạch Sự kiện: "FCAJ x AABW Cloud Workshop & Hackathon Presentation Day"
 
 ---
 
 ### 1. Mục Đích Của Sự Kiện
 
-- **Kết nối cộng đồng Cloud**: Tạo cầu nối giữa sinh viên thực tập Cloud, các học viên FCAJ và đội ngũ chuyên gia, kỹ sư điện toán mây từ các đối tác lớn của AWS.
-- **Cập nhật kiến thức AWS hiện đại**: Tiếp cận các giải pháp tiên tiến nhất về kiến trúc hạ tầng Cloud, bảo mật mạng, tự động hóa CI/CD và điện toán không máy chủ (Serverless).
-- **Định hướng phát triển nghề nghiệp**: Lắng nghe chia sẻ thực tế về môi trường làm việc tại các tập đoàn công nghệ lớn, lộ trình chinh phục chứng chỉ AWS (Associate & Professional) và bí quyết chuẩn bị phỏng vấn tuyển dụng.
-- **Rèn luyện tư duy thiết kế kiến trúc (System Design)**: Phân tích bài toán thực tế về khả năng mở rộng hệ thống, quản lý chi phí tối ưu (FinOps) và tính sẵn sàng cao (High Availability / Fault Tolerance).
+Buổi **FCAJ x AABW Cloud Workshop & Hackathon Sharing** là nơi các nhóm thực tập sinh và kỹ sư Cloud đại diện tham gia các cuộc thi Hackathon trở về báo cáo, chia sẻ hành trình thực tế, kiến trúc giải pháp công nghệ và bài học kinh nghiệm trong quá trình thi đấu:
+
+- **Báo cáo sản phẩm Hackathon**: Lắng nghe bài thuyết trình giải pháp thực tế từ 4 nhóm dự án tiêu biểu (**Team 3KA**, **OneTeam**, **SA Professional Native App**, và **SignalScout**).
+- **Học hỏi kiến trúc Cloud-Native & AI/ML**: Phân tích phương án ứng dụng dịch vụ AWS vào các bài toán thực tế dưới áp lực thời gian của cuộc thi Hackathon.
+- **Rèn luyện kỹ năng thuyết trình & làm việc nhóm**: Học hỏi cách trình bày Slide báo cáo (Pitching), bảo vệ kiến trúc trước hội đồng giám khảo và tinh thần làm việc nhóm (**One Team Mindset**).
+- **Giao lưu cộng đồng FCAJ x AABW**: Mở rộng mạng lưới kết nối giữa sinh viên thực tập Cloud và các chuyên gia AWS Community Builders.
 
 ---
 
-### 2. Danh Sách Diễn Giả
+### 2. Các Bài Trình Bày Tiêu Biểu & Dự Án Hackathon
 
-- **Anh Minh Triết**: Senior Solutions Architect tại AWS Partner - Chuyên gia Kiến trúc Hệ thống & FinOps.
-- **Chị Nhật Hà**: Cloud Security & Compliance Specialist - Chuyên gia Bảo mật & Tuân thủ đám mây.
-- **Anh Thanh Tùng**: Lead DevOps Engineer - Chuyên gia Hạ tầng tự động hóa & Kubernetes on AWS (EKS).
-- **Ban chủ nhiệm FCAJ & AABW**: Điều phối chương trình, hỗ trợ định hướng và kết nối mạng lưới sinh viên.
+#### 2.1. Team 3KA - "Hackathon Journey: Từ Ý Tưởng Đến Sản Phẩm Thực Tế" (`Hackathon_Journey_3KA.pptx`)
+- **Hành trình thi đấu**: Chia sẻ trải nghiệm vượt qua các vòng thi, kỹ năng quản lý thời gian (Time Management) và xử lý sự cố áp lực cao trong 24-48 giờ Hackathon.
+- **Giải pháp & Kiến trúc**: Cách tối ưu hóa ý tưởng thành mô hình Minimum Viable Product (MVP) và lựa chọn dịch vụ AWS tối ưu chi phí.
 
----
+#### 2.2. OneTeam - "OneTeam Community Day & Văn Hóa Hợp Tác" (`OneTeam_CommunityDay.pptx`)
+- **Văn hóa đồng đội**: Tinh thần *OneTeam* - Phối hợp chặt chẽ giữa các thành viên đảm nhận vai trò Frontend, Backend, DevOps và Cloud Architect.
+- **Chia sẻ tại Community Day**: Tổng kết kết quả báo cáo và những giá trị đóng góp cho cộng đồng sinh viên Cloud FCAJ x AABW.
 
-### 3. Nội Dung Nổi Bật
+#### 2.3. Nhóm Dự Án Native App - "SA Professional Native App Architecture" (`SA_Professional_Native_App.pptx`)
+- **Kiến trúc Native App trên AWS**: Thiết kế hệ thống ứng dụng di động Native kết hợp dịch vụ AWS (AWS Amplify, Amazon Cognito xác thực người dùng, và AWS AppSync / GraphQL API).
+- **Tiêu chuẩn Solution Architect (SA)**: Áp dụng các nguyên tắc bảo mật, bộ lưu trữ Serverless DynamoDB và khả năng mở rộng tự động (Auto Scaling).
 
-#### Diễn giả 1: Anh Minh Triết - Xu hướng Cloud & AWS Well-Architected Framework
-- **Triển khai kiến trúc hạ tầng**: Sự chuyển dịch từ hạ tầng truyền thống (On-Premises) sang Cloud-Native.
-- **6 trụ cột AWS Well-Architected Framework**:
-  1. *Operational Excellence* (Vận hành xuất sắc)
-  2. *Security* (Bảo mật tuyệt đối)
-  3. *Reliability* (Độ tin cậy cao)
-  4. *Performance Efficiency* (Hiệu năng tối ưu)
-  5. *Cost Optimization* (Tối ưu hóa chi phí)
-  6. *Sustainability* (Phát triển bền vững)
-
-#### Diễn giả 2: Anh Thanh Tùng - DevOps, Infrastructure as Code & CI/CD
-- **Infrastructure as Code (IaC)**: Quản lý và tự động hóa hạ tầng bằng Terraform & AWS CloudFormation.
-- **Containerization & Orchestration**: Triển khai ứng dụng Microservices trên AWS EKS (Kubernetes) và AWS Fargate Serverless Container.
-- **DevSecOps**: Tự động hóa kiểm tra bảo mật trong CI/CD Pipeline với AWS CodePipeline và GitHub Actions.
-
-#### Diễn giả 3: Chị Nhật Hà - Cloud Security & Identity Governance
-- **Shared Responsibility Model**: Phân định rõ trách nhiệm bảo mật giữa AWS và Khách hàng.
-- **IAM Best Practices**: Phân quyền tối thiểu (Least Privilege), IAM Roles, Multi-Factor Authentication (MFA), và AWS SSO.
-- **Bảo vệ dữ liệu**: Mã hóa với AWS KMS, ghi log hoạt động với AWS CloudTrail và Amazon GuardDuty.
+#### 2.4. Nhóm Dự Án SignalScout - "SignalScout: Giải Pháp Giám Sát & Phân Tích Dữ Liệu Cloud" (`SignalScout.pptx`)
+- **Giải pháp SignalScout**: Mô hình ứng dụng thu thập, đo đạc và phân tích tín hiệu/dữ liệu theo thời gian thực (Real-time Analytics).
+- **Công nghệ AWS sử dụng**: Tích hợp các dịch vụ AWS Lambda, Amazon Kinesis Data Streams, Amazon S3 và Dashboard hiển thị dữ liệu trực quan.
 
 ---
 
-### 4. Bảng Tóm Tắt Lộ Trình & Bài Học Thu Hoạch
+### 3. Bảng Tóm Tắt Các Dự Án Thuyết Trình
 
-| Hạng mục | Nội dung thu hoạch | Ứng dụng vào thực tập |
-| --- | --- | --- |
-| **Kiến trúc Cloud** | Hiểu rõ 6 trụ cột AWS Well-Architected Framework | Áp dụng thiết kế hệ thống chuẩn vào bài Proposal |
-| **DevOps & IaC** | Sử dụng Terraform và CI/CD Pipeline tự động | Xây dựng pipeline tự động triển khai bài Workshop |
-| **Bảo mật IAM** | Mô hình Phân quyền tối thiểu (Least Privilege) & KMS | Cấu hình IAM Role và mã hóa dữ liệu trên AWS |
-| **Định hướng** | Lộ trình thi chứng chỉ AWS Associate & Professional | Đăng ký luyện thi AWS Solutions Architect Associate |
+| Tên bài trình bày | Nhóm thực hiện / Dự án | Dịch vụ AWS & Công nghệ trọng tâm | Tài liệu Slide |
+| --- | --- | --- | --- |
+| **Hackathon Journey** | Team 3KA | Kỹ năng Hackathon, AWS Serverless, MVP Design | `Hackathon_Journey_3KA.pptx` |
+| **OneTeam Community Day** | OneTeam | Tinh thần OneTeam, DevOps CI/CD, Community Sharing | `OneTeam_CommunityDay.pptx` |
+| **SA Professional Native App** | Nhóm Native App | AWS Amplify, Amazon Cognito, AppSync, DynamoDB | `SA_Professional_Native_App.pptx` |
+| **SignalScout** | Nhóm SignalScout | Real-time Analytics, AWS Kinesis, AWS Lambda, S3 | `SignalScout.pptx` |
 
 ---
 
-### 5. Tài Liệu Tham Khảo & Hình Ảnh Sự Kiện
+### 4. Bài Học Thu Hoạch & Ứng Dụng
 
-- **Kho lưu trữ hình ảnh & tài liệu sự kiện (Google Drive):** [FCAJ x AABW Drive Folder](https://drive.google.com/drive/folders/1goIcF8jRIGZczB4DBHGTsS6mp41FWmLL)
+1. **Tư duy thiết kế kiến trúc chuẩn SA**: Biết cách phối hợp giữa ứng dụng Mobile Native và hệ thống Backend Serverless trên AWS.
+2. **Kỹ năng giải quyết bài toán Hackathon**: Học được tư duy xây dựng nhanh MVP và tinh thần làm việc nhóm gắn kết (OneTeam).
+3. **Kỹ năng trình bày báo cáo kỹ thuật**: Học hỏi phong cách thiết kế Slide chuyên nghiệp và trình bày mạch lạc từ các đàn anh đi trước.
+
+---
+
+### 5. Tài Liệu Slide Báo Cáo & Thư Viện Google Drive
+
+- **Kho lưu trữ Slide thuyết trình sự kiện (Google Drive):** [FCAJ x AABW Drive Folder](https://drive.google.com/drive/folders/1goIcF8jRIGZczB4DBHGTsS6mp41FWmLL)
 - **Tài liệu tham khảo chuyên môn:** [AWS Well-Architected Framework Docs](https://aws.amazon.com/architecture/well-architected/)

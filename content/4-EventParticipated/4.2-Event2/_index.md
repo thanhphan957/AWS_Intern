@@ -1,66 +1,78 @@
 ---
-title: "Event 2: FCAJ x AABW Cloud Workshop - Hackathon Presentations & Case Studies"
+title: "Event 2: FCAJ x AABW Cloud Workshop - Architectural Challenges in Hackathon Projects"
 date: 2026-07-26
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Event Summary Report: "FCAJ x AABW Cloud Workshop & Hackathon Presentation Day"
+# Event Summary Report: "FCAJ x AABW Cloud Workshop & Decoding Hackathon Architectural Challenges"
 
 ---
 
 ### 1. Purpose of the Event
 
-The **FCAJ x AABW Cloud Workshop & Hackathon Presentation Day** featured project presentations from intern teams returning from recent Hackathon competitions, sharing their journey, architecture designs, and lessons learned:
+The **FCAJ x AABW Cloud Workshop** focused on the central theme: **"Presenting the journey of overcoming Architectural Challenges to build complete projects for Hackathon competitions"**.
 
-- **Hackathon Project Showcase**: Listening to technical pitches and architectural deep-dives from 4 representative teams (**Team 3KA**, **OneTeam**, **SA Professional Native App**, and **SignalScout**).
-- **Cloud-Native & AI/ML System Design**: Analyzing how teams leveraged AWS services under Hackathon time constraints.
-- **Presentation & Collaboration Skills**: Learning pitching strategies, architecture defense, and cultivating a **OneTeam Mindset**.
-- **Community Engagement**: Strengthening networking between FCAJ interns and AWS Community Builders.
-
----
-
-### 2. Featured Project Presentations
-
-#### 2.1. Team 3KA - "Hackathon Journey: From Concept to Production" (`Hackathon_Journey_3KA.pptx`)
-- **The Competition Journey**: Experiences navigating Hackathon rounds, time management under 24-48 hour pressure, and rapid troubleshooting.
-- **Architecture & MVP Design**: Building cost-effective Minimum Viable Products (MVPs) on AWS Serverless architecture.
-
-#### 2.2. OneTeam - "OneTeam Community Day & Team Culture" (`OneTeam_CommunityDay.pptx`)
-- **Team Culture**: The *OneTeam* ethos - seamless collaboration across Frontend, Backend, DevOps, and Cloud Architect roles.
-- **Community Sharing**: Key outcomes and value contributions shared at the FCAJ x AABW Community Day.
-
-#### 2.3. Native App Team - "SA Professional Native App Architecture" (`SA_Professional_Native_App.pptx`)
-- **Native App Architecture on AWS**: Integrating mobile applications with AWS Amplify, Amazon Cognito (Authentication), and AWS AppSync / GraphQL APIs.
-- **Solutions Architect Standards**: Applying security best practices, DynamoDB Serverless storage, and Auto Scaling.
-
-#### 2.4. SignalScout Team - "SignalScout: Cloud Monitoring & Real-time Analytics" (`SignalScout.pptx`)
-- **SignalScout Solution**: Real-time signal collection, monitoring, and telemetry analytics platform.
-- **AWS Stack Used**: AWS Lambda, Amazon Kinesis Data Streams, Amazon S3, and real-time visualization dashboards.
+Key learning objectives included:
+- **Decoding Real-World Architectural Bottlenecks**: Analyzing technical hurdles, performance bottlenecks, and design challenges faced during rapid Hackathon development.
+- **AWS Solutions Optimization**: Studying how teams selected AWS services aligned with Solutions Architect (SA) principles (*Fast Development, Cost Efficiency, Auto-Scaling, and Security*).
+- **System Design Mindset**: Learning the end-to-end engineering workflow: Problem Requirements ➔ Serverless/Container Selection ➔ Data Flow Design ➔ MVP Packaging.
+- **Community Networking**: Connecting FCAJ Cloud interns with AWS Community Builders and industry experts.
 
 ---
 
-### 3. Presentation Summary Table
+### 2. Detailed Technical Analysis of Hackathon Architectural Challenges
 
-| Presentation Title | Team / Project | Key AWS Services & Focus Area | Slide File |
-| --- | --- | --- | --- |
-| **Hackathon Journey** | Team 3KA | Hackathon Strategy, AWS Serverless, MVP Design | `Hackathon_Journey_3KA.pptx` |
-| **OneTeam Community Day** | OneTeam | OneTeam Culture, DevOps CI/CD, Community Sharing | `OneTeam_CommunityDay.pptx` |
-| **SA Professional Native App** | Native App Team | AWS Amplify, Amazon Cognito, AppSync, DynamoDB | `SA_Professional_Native_App.pptx` |
-| **SignalScout** | SignalScout Team | Real-time Analytics, AWS Kinesis, AWS Lambda, S3 | `SignalScout.pptx` |
+#### 2.1. Team 3KA - "Hackathon Journey: Building a Serverless MVP in 24 Hours" (`Hackathon_Journey_3KA.pptx`)
+- **Architectural Challenge**: How to build a fully functional system within 24-48 hours that handles sudden traffic spikes during live judge demos while maintaining near-zero idle costs.
+- **AWS Architectural Solution**:
+  - Implemented an **AWS Serverless Architecture** (Amazon API Gateway + AWS Lambda + Amazon DynamoDB).
+  - Eliminated server management (EC2), reducing infrastructure setup time to under 10 minutes.
+  - Leveraged automatic scaling to seamlessly accommodate demo traffic bursts.
+
+#### 2.2. OneTeam - "OneTeam Community Day: Infrastructure Automation & Collaborative Delivery" (`OneTeam_CommunityDay.pptx`)
+- **Architectural Challenge**: Synchronizing workflows across Frontend, Backend, Cloud Architect, and DevOps roles under a *OneTeam* mindset, eliminating deployment bottlenecks and version conflicts.
+- **AWS Architectural Solution**:
+  - Adopted **Infrastructure as Code (IaC)** with Terraform to define all cloud resources declaratively.
+  - Built an automated **CI/CD Pipeline** using GitHub Actions and AWS CodePipeline, enabling seamless testing and deployment to AWS within minutes of committing code.
+
+#### 2.3. Native App Team - "SA Professional Native App: Integrating Mobile Native Apps with Cloud Backends" (`SA_Professional_Native_App.pptx`)
+- **Architectural Challenge**: Designing Native mobile apps (iOS/Android) paired with cloud backends requiring ultra-low latency, real-time data sync, and enterprise-grade authentication.
+- **AWS Architectural Solution**:
+  - Utilized **AWS Amplify** with **AWS AppSync (GraphQL API)** for flexible data querying and real-time synchronization.
+  - Integrated **Amazon Cognito** for secure user login/signup with MFA and fine-grained IAM Roles.
+  - Employed **Amazon DynamoDB** for serverless storage achieving sub-10ms response times.
+
+#### 2.4. SignalScout Team - "SignalScout: Real-time Telemetry & Signal Stream Data Processing" (`SignalScout.pptx`)
+- **Architectural Challenge**: Ingesting and processing continuous, high-volume real-time sensor/telemetry data streams without system congestion or data loss.
+- **AWS Architectural Solution**:
+  - Built a scalable data ingestion pipeline using **Amazon Kinesis Data Streams** handling thousands of events per second.
+  - Applied **AWS Lambda** for real-time event processing and data transformation.
+  - Stored historical data on **Amazon S3** and generated real-time analytical dashboards.
 
 ---
 
-### 4. Key Takeaways & Practical Application
+### 3. Summary Matrix of Architectural Challenges & AWS Solutions
 
-1. **Solutions Architect Mindset**: Integrating Mobile Native applications with AWS Serverless Backends.
-2. **Hackathon Execution**: Rapid MVP prototyping and effective cross-functional team collaboration.
-3. **Technical Pitching Skills**: Professional slide design and structured architecture presentations.
+| Project Team | Primary Architectural Challenge | AWS Solution Stack | Architectural Outcome | Slide File |
+| --- | --- | --- | --- | --- |
+| **Team 3KA** | Rapid 24h MVP deployment & traffic spikes | AWS Lambda, API Gateway, DynamoDB (Serverless) | Setup <10 mins, auto-scaling, zero idle cost | `Hackathon_Journey_3KA.pptx` |
+| **OneTeam** | Cross-functional sync & delivery bottleneck | Terraform (IaC), AWS CodePipeline, GitHub Actions | Automated CI/CD delivery under OneTeam culture | `OneTeam_CommunityDay.pptx` |
+| **SA Native App** | Mobile Native & Cloud integration, low-latency | AWS Amplify, Amazon Cognito, AppSync, DynamoDB | Real-time sync, <10ms response time, MFA security | `SA_Professional_Native_App.pptx` |
+| **SignalScout** | High-volume real-time telemetry stream processing | Amazon Kinesis Data Streams, AWS Lambda, Amazon S3 | Non-blocking real-time stream processing pipeline | `SignalScout.pptx` |
+
+---
+
+### 4. Key Lessons Learned & Practical Takeaways
+
+1. **Architectural Problem Solving**: Identifying system bottlenecks to select the optimal AWS service pattern (Serverless vs Container vs Managed Services).
+2. **Solutions Architect Balance**: Balancing feature velocity, time-to-market, and the 6 Pillars of the AWS Well-Architected Framework.
+3. **Internship Application**: Applying Serverless architecture and IaC/CI/CD patterns to the internship proposal and final report.
 
 ---
 
 ### 5. Event Slides & Media Archive
 
-- **Event Slides Google Drive Folder:** [FCAJ x AABW Drive Folder](https://drive.google.com/drive/folders/1goIcF8jRIGZczB4DBHGTsS6mp41FWmLL)
+- **Event Architectural Slides (Google Drive):** [FCAJ x AABW Drive Folder](https://drive.google.com/drive/folders/1goIcF8jRIGZczB4DBHGTsS6mp41FWmLL)
 - **Reference Documentation:** [AWS Well-Architected Framework Docs](https://aws.amazon.com/architecture/well-architected/)

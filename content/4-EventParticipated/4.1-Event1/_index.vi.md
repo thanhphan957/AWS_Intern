@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch "FCJ Cloud Sharing & Career Orientation"
+# Bài thu hoạch "AWS Cloud, DevOps & Orientations for Cloud Engineers"
 
 ### Thông tin sự kiện
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| **Tên sự kiện** | FCJ Cloud Sharing & Career Orientation |
+| **Tên sự kiện** | AWS Cloud, DevOps & Orientations for Cloud Engineers |
 | **Thời gian** | 09:00, ngày 13/06/2026 |
 | **Địa điểm** | Tầng 26 & 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh |
 | **Vai trò** | Người tham dự |

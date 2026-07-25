@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Bài thu hoạch "FCAJ x AABW Cloud Workshop"
+# Bài thu hoạch "FCAJ x AABW Cloud Workshop & Hackathon Architecture"
 
 ### Thông tin sự kiện
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| **Tên sự kiện** | FCAJ x AABW Cloud Workshop |
+| **Tên sự kiện** | FCAJ x AABW Cloud Workshop & Hackathon Architecture |
 | **Thời gian** | 09:00, ngày 25/07/2026 |
 | **Địa điểm** | Tầng 26 & 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh |
 | **Vai trò** | Người tham dự |

@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: "FCJ Cloud Sharing & Career Orientation"
+# Summary Report: "AWS Cloud, DevOps & Orientations for Cloud Engineers"
 
 ### Event Information
 
 | Category | Details |
 | --- | --- |
-| **Event Title** | FCJ Cloud Sharing & Career Orientation |
+| **Event Title** | AWS Cloud, DevOps & Orientations for Cloud Engineers |
 | **Date & Time** | 09:00, June 13, 2026 |
 | **Location** | Floors 26 & 36, Bitexco Financial Tower, No. 02 Hai Trieu, Sai Gon Ward, Ho Chi Minh City |
 | **Role** | Attendee |

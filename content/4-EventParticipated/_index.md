@@ -10,5 +10,5 @@ During the internship, I participated in technical workshops and sharing session
 
 Event details:
 
-- **Event 1:** [FCJ Cloud Sharing & Career Orientation](4.1-event1/)
-- **Event 2:** [FCAJ x AABW Cloud Workshop](4.2-event2/)
+- **Event 1:** [AWS Cloud, DevOps & Orientations for Cloud Engineers](4.1-event1/)
+- **Event 2:** [FCAJ x AABW Cloud Workshop & Hackathon Architecture](4.2-event2/)

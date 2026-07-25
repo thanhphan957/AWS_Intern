@@ -1,5 +1,5 @@
 ---
-title: "Event 2: FCAJ x AABW Cloud Workshop - Architectural Challenges in Hackathon Projects"
+title: "Event 2: FCAJ x AABW Cloud Workshop"
 date: 2026-07-26
 weight: 2
 chapter: false

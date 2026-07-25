@@ -1,5 +1,5 @@
 ---
-title: "Sự kiện 2: FCAJ x AABW Cloud Workshop - Thử Thách Kiến Trúc Dự Án Hackathon"
+title: "Sự kiện 2: FCAJ x AABW Cloud Workshop"
 date: 2026-07-26
 weight: 2
 chapter: false

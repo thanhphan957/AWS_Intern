@@ -1,6 +1,6 @@
 ---
 title: "Event2"
-date: 2026-07-26
+date: 2026-07-25
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
@@ -13,7 +13,7 @@ pre: " <b> 4.2. </b> "
 | Hạng mục | Nội dung |
 | --- | --- |
 | **Tên sự kiện** | FCAJ Community Day (Lần 2) |
-| **Thời gian** | 09:00, ngày 11/07/2026 |
+| **Thời gian** | 09:00, ngày 25/07/2026 |
 | **Địa điểm** | Tầng 26 & 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh |
 | **Vai trò** | Người tham dự |
 | **Số phiên chia sẻ** | 6 phiên kỹ thuật + phần khai mạc |

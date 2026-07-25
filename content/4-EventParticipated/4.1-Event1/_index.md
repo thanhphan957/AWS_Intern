@@ -1,5 +1,5 @@
 ---
-title: "Event 1: FCJ Cloud Sharing & Career Orientation"
+title: "Event1"
 date: 2026-06-13
 weight: 1
 chapter: false

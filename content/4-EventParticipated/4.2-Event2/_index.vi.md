@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Bài thu hoạch "FCAJ Community Day" (Lần 2)
+# Bài thu hoạch "FCAJ Community Day"
 
 ### Thông tin sự kiện
 
 | Hạng mục | Nội dung |
 | --- | --- |
-| **Tên sự kiện** | FCAJ Community Day (Lần 2) |
+| **Tên sự kiện** | FCAJ Community Day |
 | **Thời gian** | 09:00, ngày 25/07/2026 |
 | **Địa điểm** | Tầng 26 & 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh |
 | **Vai trò** | Người tham dự |

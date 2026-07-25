@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: "FCJ Cloud Sharing & Career Orientation" (Part 1)
+# Summary Report: "FCJ Cloud Sharing & Career Orientation"
 
 ### Event Information
 
 | Category | Details |
 | --- | --- |
-| **Event Title** | FCJ Cloud Sharing & Career Orientation (Part 1) |
+| **Event Title** | FCJ Cloud Sharing & Career Orientation |
 | **Date & Time** | 09:00, June 13, 2026 |
 | **Location** | Floors 26 & 36, Bitexco Financial Tower, No. 02 Hai Trieu, Sai Gon Ward, Ho Chi Minh City |
 | **Role** | Attendee |

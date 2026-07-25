@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Summary Report: "FCAJ Community Day" (Part 2)
+# Summary Report: "FCAJ Community Day"
 
 ### Event Information
 
 | Category | Details |
 | --- | --- |
-| **Event Title** | FCAJ Community Day (Part 2) |
+| **Event Title** | FCAJ Community Day |
 | **Date & Time** | 09:00, July 25, 2026 |
 | **Location** | Floors 26 & 36, Bitexco Financial Tower, No. 02 Hai Trieu, Sai Gon Ward, Ho Chi Minh City |
 | **Role** | Attendee |

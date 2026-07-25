@@ -82,16 +82,7 @@ Key learning objectives included:
 ### 6. Event Photo Gallery
 
 ![Opening of FCAJ x Agentic AI Build Week Workshop](event2_photo1.jpg)
-*Figure 1: Overview of the FCAJ x AABW Workshop & Agentic AI Build Week opening session*
-
 ![Chatbot Agent workflow presentation](event2_photo2.jpg)
-*Figure 2: Intern team presenting the workflow: A Chatbot Replies - An Agent Acts*
-
 ![AWS Architecture Diagram presentation](event2_photo3.jpg)
-*Figure 3: Team representatives analyzing AWS Architecture Diagrams*
-
 ![Solutions Architect & Native App Presentation](event2_photo4.jpg)
-*Figure 4: Presenting SA Professional Native App solutions on AWS*
-
 ![Team motivation & Hackathon takeaways](event2_photo5.jpg)
-*Figure 5: Teams sharing their motivation and key takeaways from competing in the Hackathon*

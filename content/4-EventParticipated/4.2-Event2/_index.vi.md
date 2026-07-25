@@ -82,16 +82,7 @@ Sự kiện mang lại những giá trị chuyên môn sâu sắc:
 ### 6. Hình Ảnh Thực Tế Tại Buổi Workshop & Thuyết Trình Hackathon
 
 ![Khai mạc buổi chia sẻ FCAJ x Agentic AI Build Week & Hackathon](event2_photo1.jpg)
-*Hình 1: Toàn cảnh hội trường khai mạc buổi Workshop FCAJ x AABW & Agentic AI Build Week*
-
 ![Báo cáo sản phẩm và giải mã bài toán Chatbot Agent](event2_photo2.jpg)
-*Hình 2: Nhóm thực tập sinh thuyết trình về quy trình xử lý A Chatbot Replies - An Agent Acts*
-
 ![Trình bày sơ đồ kiến trúc hệ thống Cloud AWS](event2_photo3.jpg)
-*Hình 3: Đại diện các nhóm phân tích sơ đồ kiến trúc hệ thống AWS (Architecture Diagram)*
-
 ![Thuyết trình giải pháp Solution Architect & Native App](event2_photo4.jpg)
-*Hình 4: Trình bày giải pháp kiến trúc Solution Architect & Native App trên AWS*
-
 ![Chia sẻ lý do tham gia Hackathon & tinh thần đồng đội](event2_photo5.jpg)
-*Hình 5: Các nhóm chia sẻ về lý do tham gia cuộc thi Hackathon & bài học thu hoạch*

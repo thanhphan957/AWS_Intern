@@ -6,13 +6,23 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Bài thu hoạch Sự kiện: "FCAJ x AABW Cloud Workshop & Giải Mã Thử Thách Kiến Trúc Hackathon"
+# Bài thu hoạch "FCAJ Community Day" (Lần 2)
+
+### Thông tin sự kiện
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| **Tên sự kiện** | FCAJ Community Day (Lần 2) |
+| **Thời gian** | 09:00, ngày 11/07/2026 |
+| **Địa điểm** | Tầng 26 & 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh |
+| **Vai trò** | Người tham dự |
+| **Số phiên chia sẻ** | 6 phiên kỹ thuật + phần khai mạc |
 
 ---
 
 ### 1. Mục Đích Của Sự Kiện
 
-Buổi **FCAJ x AABW Cloud Workshop** tập trung vào chủ đề trọng tâm: **"Trình bày quá trình giải quyết các thử thách kiến trúc (Architecture Challenges) để xây dựng nên dự án hoàn chỉnh tham dự cuộc thi Hackathon"**.
+Buổi **FCAJ x AABW Cloud Workshop & Community Day** tập trung vào chủ đề trọng tâm: **"Trình bày quá trình giải quyết các thử thách kiến trúc (Architecture Challenges) để xây dựng nên dự án hoàn chỉnh tham dự cuộc thi Hackathon"**.
 
 Sự kiện mang lại những giá trị chuyên môn sâu sắc:
 - **Giải mã bài toán kiến trúc thực tế**: Phân tích những khó khăn, nút thắt cổ chai (bottlenecks) và thử thách kỹ thuật mà các nhóm gặp phải khi thiết kế ứng dụng cho cuộc thi Hackathon.
@@ -74,7 +84,7 @@ Sự kiện mang lại những giá trị chuyên môn sâu sắc:
 
 ### 5. Tài Liệu Tham Khảo & Thư Viện Google Drive
 
-- **Kho lưu trữ tài liệu sự kiện (Google Drive):** [FCAJ x AABW Drive Folder](https://drive.google.com/drive/folders/1goIcF8jRIGZczB4DBHGTsS6mp41FWmLL)
+- **Kho lưu trữ tài liệu sự kiện (Google Drive):** [FCAJ Community Day Event 2 Drive Folder](https://drive.google.com/drive/folders/1goIcF8jRIGZczB4DBHGTsS6mp41FWmLL?usp=sharing)
 - **Tài liệu tham khảo chuyên môn:** [AWS Well-Architected Framework Docs](https://aws.amazon.com/architecture/well-architected/)
 
 ---

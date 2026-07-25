@@ -6,7 +6,17 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch Sự kiện: "AWS Cloud, DevOps & Orientations for Cloud Engineers"
+# Bài thu hoạch "FCJ Cloud Sharing & Career Orientation" (Lần 1)
+
+### Thông tin sự kiện
+
+| Hạng mục | Nội dung |
+| --- | --- |
+| **Tên sự kiện** | FCJ Cloud Sharing & Career Orientation (Lần 1) |
+| **Thời gian** | 09:00, ngày 13/06/2026 |
+| **Địa điểm** | Tầng 26 & 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh |
+| **Vai trò** | Người tham dự |
+| **Số phiên chia sẻ** | 4 phiên kỹ thuật + phần khai mạc |
 
 ---
 
@@ -70,15 +80,15 @@ pre: " <b> 4.1. </b> "
 
 ---
 
-### 5. Ứng Dụng Vào Công Việc & Dự Án Thực Tập
+### 5. Tài Liệu Tham Khảo & Thư Viện Google Drive
+
+- **Kho lưu trữ tài liệu & hình ảnh sự kiện (Google Drive):** [FCJ Cloud Sharing Event 1 Drive Folder](https://drive.google.com/drive/folders/1XYe3c3jX0F432hyQiCZBOGF2dDlIEwB4?usp=sharing)
+- **Tài liệu tham khảo chuyên môn:** [AWS Well-Architected Framework Docs](https://aws.amazon.com/architecture/well-architected/)
+
+---
+
+### 6. Ứng Dụng Vào Công Việc & Dự Án Thực Tập
 
 - **Tự động hóa CI/CD**: Áp dụng GitHub Actions và AWS SAM triển khai các hàm Lambda.
 - **Tối ưu CSDL**: Thiết kế DynamoDB Partition Key / Sort Key và cấu hình TTL cleanup cho dự án Serverless Todo API.
 - **Giám sát hệ thống**: Sử dụng CloudWatch Logs theo dõi hiệu năng và xử lý sự cố.
-
----
-
-### 6. Trải Nghiệm & Bài Học Rút Ra
-
-- Buổi sự kiện mang lại lượng kiến thức thực chiến phong phú và cái nhìn toàn diện về môi trường công nghệ Cloud/DevOps.
-- **Bài học rút ra**: Một hệ thống tốt phải bắt đầu từ nhu cầu kinh doanh (Business-First), đảm bảo sự đơn giản, độ tin cậy và tối ưu chi phí vận hành.

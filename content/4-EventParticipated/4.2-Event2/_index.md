@@ -6,13 +6,23 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Event Summary Report: "FCAJ x AABW Cloud Workshop & Decoding Hackathon Architectural Challenges"
+# Summary Report: "FCAJ Community Day" (Part 2)
+
+### Event Information
+
+| Category | Details |
+| --- | --- |
+| **Event Title** | FCAJ Community Day (Part 2) |
+| **Date & Time** | 09:00, July 11, 2026 |
+| **Location** | Floors 26 & 36, Bitexco Financial Tower, No. 02 Hai Trieu, Sai Gon Ward, Ho Chi Minh City |
+| **Role** | Attendee |
+| **Sessions** | 6 Technical Sessions + Opening Keynote |
 
 ---
 
 ### 1. Purpose of the Event
 
-The **FCAJ x AABW Cloud Workshop** focused on the central theme: **"Presenting the journey of overcoming Architectural Challenges to build complete projects for Hackathon competitions"**.
+The **FCAJ x AABW Cloud Workshop & Community Day** focused on the central theme: **"Presenting the journey of overcoming Architectural Challenges to build complete projects for Hackathon competitions"**.
 
 Key learning objectives included:
 - **Decoding Real-World Architectural Bottlenecks**: Analyzing technical hurdles, performance bottlenecks, and design challenges faced during rapid Hackathon development.
@@ -74,7 +84,7 @@ Key learning objectives included:
 
 ### 5. Event Slides & Media Archive
 
-- **Event Architectural Slides (Google Drive):** [FCAJ x AABW Drive Folder](https://drive.google.com/drive/folders/1goIcF8jRIGZczB4DBHGTsS6mp41FWmLL)
+- **Event Architectural Slides (Google Drive):** [FCAJ Community Day Event 2 Drive Folder](https://drive.google.com/drive/folders/1goIcF8jRIGZczB4DBHGTsS6mp41FWmLL?usp=sharing)
 - **Reference Documentation:** [AWS Well-Architected Framework Docs](https://aws.amazon.com/architecture/well-architected/)
 
 ---
